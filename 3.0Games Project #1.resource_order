@@ -16,5 +16,7 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"TitleScreen","order":1,"path":"rooms/TitleScreen/TitleScreen.yy",},
+  ],
 }
