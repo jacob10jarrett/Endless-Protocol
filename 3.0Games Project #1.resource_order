@@ -19,7 +19,9 @@
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_title","order":4,"path":"objects/obj_title/obj_title.yy",},
+    {"name":"obj_bounds","order":6,"path":"objects/obj_bounds/obj_bounds.yy",},
     {"name":"obj_button_help","order":2,"path":"objects/obj_button_help/obj_button_help.yy",},
+    {"name":"spr_bounds","order":4,"path":"sprites/spr_bounds/spr_bounds.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"rm_titlescreen","order":1,"path":"rooms/rm_titlescreen/rm_titlescreen.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
