@@ -3,8 +3,11 @@
   "resourceVersion": "1.0",
   "name": "TileSet1",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "autoTileSets": [],
 =======
+=======
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
   "autoTileSets": [
     {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":false,"tiles":[
         0,
@@ -74,6 +77,9 @@
         0,
       ],},
   ],
+<<<<<<< HEAD
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
+=======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -89,15 +95,21 @@
   },
   "spriteId": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "spr_tileSet",
     "path": "sprites/spr_tileSet/spr_tileSet.yy",
   },
   "spriteNoExport": true,
 =======
+=======
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
     "name": "spr_TileSet",
     "path": "sprites/spr_TileSet/spr_TileSet.yy",
   },
   "spriteNoExport": false,
+<<<<<<< HEAD
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
+=======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
   "textureGroupId": {
     "name": "Default",
