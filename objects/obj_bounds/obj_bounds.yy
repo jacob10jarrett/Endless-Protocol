@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_bounds",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -24,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_bounds",
+    "path": "sprites/spr_bounds/spr_bounds.yy",
   },
   "spriteMaskId": null,
   "visible": true,
