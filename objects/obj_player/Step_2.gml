@@ -1,5 +1,10 @@
-// Camera control
-halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
-halfViewHeight = camera_get_view_height(view_camera[0]) / 2;
+// Camera controls
+var halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
+var halfViewHeight = camera_get_view_height(view_camera[0]) / 2;
 
-camera_set_view_pos(view_camera[0], x - halfViewWidth, y - halfViewHeight)
+var targetCameraX = x - halfViewWidth;
+var targetCameraY = y - halfViewHeight;
+
+var cameraSpeed = 0.1;
+
+camera_set_view_pos(view_camera[0], lerp(camera_get_view_x(view_camera[0]), targetCameraX, cameraSpeed), lerp(camera_get_view_y(view_camera[0]), targetCameraY, cameraSpeed));
