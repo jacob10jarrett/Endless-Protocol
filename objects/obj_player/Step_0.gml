@@ -9,10 +9,16 @@ hsp = (key_right - key_left) * my_speed;
 vsp = (key_down - key_up) * my_speed;
 
 // Collision detection
-move_and_collide(hsp * my_speed, vsp * my_speed, obj_Collision)
+move_and_collide(hsp * my_speed, vsp * my_speed, obj_Collision);
 
-
-
+// Sprite flipping
+if (key_left) {
+    // If moving left, flip the sprite
+    image_xscale = -1;
+} else if (key_right) {
+    // If moving right, ensure the sprite is in its default orientation
+    image_xscale = 1;
+}
 
 
 
