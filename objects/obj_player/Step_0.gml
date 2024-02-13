@@ -1,17 +1,13 @@
-var bbox_side;
+
 //Movement
-key_right = keyboard_check(ord("D"));
-key_left = keyboard_check(ord("A"));
-key_up = keyboard_check(ord("W"));
-key_down = keyboard_check(ord("S"));
+if keyboard_check(ord("A")) x -= 4
+if keyboard_check(ord("D")) x += 4
+if keyboard_check(ord("W")) y -= 4
+if keyboard_check(ord("S")) y += 4
 
-hsp = (key_right - key_left) * my_speed;
-vsp = (key_down - key_up) * my_speed;
-
-// Collision detection
-move_and_collide(hsp * my_speed, vsp * my_speed, obj_Collision)
-
-
+//Map bounds
+x = clamp(x, sprite_width/2, room_width - sprite_width/2)
+y = clamp(y, sprite_width/2, room_height - sprite_height/2)
 
 
 
