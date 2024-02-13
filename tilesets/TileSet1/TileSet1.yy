@@ -4,8 +4,11 @@
   "name": "TileSet1",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "autoTileSets": [],
 =======
+=======
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
 =======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
   "autoTileSets": [
@@ -78,6 +81,9 @@
       ],},
   ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
+=======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
 =======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
@@ -96,6 +102,7 @@
   "spriteId": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "spr_tileSet",
     "path": "sprites/spr_tileSet/spr_tileSet.yy",
   },
@@ -103,11 +110,16 @@
 =======
 =======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
+=======
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
     "name": "spr_TileSet",
     "path": "sprites/spr_TileSet/spr_TileSet.yy",
   },
   "spriteNoExport": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
+=======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
 =======
 >>>>>>> parent of 09ac37f (Merge branch 'main' of https://github.com/jacob10jarrett/3.0Games-Project-1)
