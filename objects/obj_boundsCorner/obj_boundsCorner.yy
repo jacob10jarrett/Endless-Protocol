@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bounds",
+  "name": "obj_boundsCorner",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_bounds",
-    "path": "sprites/spr_bounds/spr_bounds.yy",
+    "name": "spr_boundsCorner",
+    "path": "sprites/spr_boundsCorner/spr_boundsCorner.yy",
   },
   "spriteMaskId": null,
   "visible": true,
