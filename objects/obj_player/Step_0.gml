@@ -10,6 +10,7 @@ vsp = (key_down - key_up) * my_speed;
 
 // Collision detection
 move_and_collide(hsp * my_speed, vsp * my_speed, obj_Collision);
+move_and_collide(hsp * my_speed, vsp * my_speed, obj_bounds);
 
 // Sprite flipping
 if (key_left) {

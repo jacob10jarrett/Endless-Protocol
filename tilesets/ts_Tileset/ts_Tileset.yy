@@ -94,8 +94,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "spr_TileSet",
-    "path": "sprites/spr_TileSet/spr_TileSet.yy",
+    "name": "spr_tileSet",
+    "path": "sprites/spr_tileSet/spr_tileSet.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
