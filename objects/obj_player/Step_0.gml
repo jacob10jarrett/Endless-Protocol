@@ -1,4 +1,3 @@
-var bbox_side;
 //Movement
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
@@ -20,10 +19,14 @@ if(hsp == 0) and (vsp == 0)
 // Sprite flipping
 if (key_left) {
     // If moving left, flip the sprite
-    image_xscale = -1;
+    if (image_xscale > 0) {
+        image_xscale *= -1; // Flip horizontally
+    }
 } else if (key_right) {
     // If moving right, ensure the sprite is in its default orientation
-    image_xscale = 1;
+    if (image_xscale < 0) {
+        image_xscale *= -1; // Make it positive
+    }
 }
 
 

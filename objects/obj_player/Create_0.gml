@@ -1,4 +1,4 @@
-my_speed = 2
+my_speed = 2.5
 hsp = 0;
 vsp = 0;
 
