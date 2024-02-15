@@ -33,5 +33,5 @@
     "path": "sprites/spr_bounds/spr_bounds.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

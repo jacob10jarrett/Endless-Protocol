@@ -33,5 +33,5 @@
     "path": "sprites/spr_boundsCorner/spr_boundsCorner.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
