@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_CollisionCorner",
-  "eventList": [],
+  "name": "obj_weapon_bomb",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collisions",
-    "path": "folders/Objects/Collisions.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_Collision",
-    "path": "objects/obj_Collision/obj_Collision.yy",
+    "name": "obj_weapon_parent",
+    "path": "objects/obj_weapon_parent/obj_weapon_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,9 +32,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_CornerCollision",
-    "path": "sprites/spr_CornerCollision/spr_CornerCollision.yy",
+    "name": "spr_tempBomb",
+    "path": "sprites/spr_tempBomb/spr_tempBomb.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

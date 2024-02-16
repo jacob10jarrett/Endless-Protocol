@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Collision",
-  "eventList": [],
+  "name": "obj_weapon_parent",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collisions",
-    "path": "folders/Objects/Collisions.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,13 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_Collision",
-    "path": "sprites/spr_Collision/spr_Collision.yy",
-  },
-  "spriteMaskId": {
-    "name": "spr_Collision",
-    "path": "sprites/spr_Collision/spr_Collision.yy",
-  },
-  "visible": false,
+  "spriteId": null,
+  "spriteMaskId": null,
+  "visible": true,
 }

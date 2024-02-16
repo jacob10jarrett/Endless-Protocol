@@ -2,4 +2,4 @@ event_inherited();
 
 //room_goto(rm_game);
 
-room_goto(rm_game1);
+room_goto(rm_game);

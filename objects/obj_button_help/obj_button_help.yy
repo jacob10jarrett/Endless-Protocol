@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button/obj_button.yy",},"value":"Help",},
   ],
   "parent": {
-    "name": "buttons",
-    "path": "folders/Objects/buttons.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_button",
