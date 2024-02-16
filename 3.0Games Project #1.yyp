@@ -80,6 +80,7 @@
     {"id":{"name":"ts_Tileset","path":"tilesets/ts_Tileset/ts_Tileset.yy",},},
     {"id":{"name":"obj_boundsCorner","path":"objects/obj_boundsCorner/obj_boundsCorner.yy",},},
     {"id":{"name":"ts_300","path":"tilesets/ts_300/ts_300.yy",},},
+    {"id":{"name":"snd_titlesong","path":"sounds/snd_titlesong/snd_titlesong.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
