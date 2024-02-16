@@ -1,9 +1,10 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
-    {"name":"obj_weapon_primary","order":12,"path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},
-    {"name":"obj_weapon_bomb","order":13,"path":"objects/obj_weapon_bomb/obj_weapon_bomb.yy",},
+    {"name":"obj_weapon_primary","order":1,"path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},
     {"name":"spr_boundsCorner","order":3,"path":"sprites/spr_boundsCorner/spr_boundsCorner.yy",},
     {"name":"obj_dashUI","order":15,"path":"objects/obj_dashUI/obj_dashUI.yy",},
     {"name":"obj_title","order":4,"path":"objects/obj_title/obj_title.yy",},
@@ -20,7 +21,7 @@
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_player","order":7,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"obj_weapon_parent","order":11,"path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},
+    {"name":"obj_weapon_parent","order":2,"path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},
     {"name":"spr_rock3","order":1,"path":"sprites/spr_rock3/spr_rock3.yy",},
     {"name":"rm_titlescreen","order":1,"path":"rooms/rm_titlescreen/rm_titlescreen.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
