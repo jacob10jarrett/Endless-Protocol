@@ -5,6 +5,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_weapon_primary","order":1,"path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},
+    {"name":"snd_song1","order":2,"path":"sounds/snd_song1/snd_song1.yy",},
     {"name":"spr_boundsCorner","order":3,"path":"sprites/spr_boundsCorner/spr_boundsCorner.yy",},
     {"name":"obj_dashUI","order":15,"path":"objects/obj_dashUI/obj_dashUI.yy",},
     {"name":"obj_title","order":4,"path":"objects/obj_title/obj_title.yy",},
@@ -16,7 +17,10 @@
     {"name":"obj_button_help","order":1,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"spr_rock1","order":2,"path":"sprites/spr_rock1/spr_rock1.yy",},
     {"name":"obj_dashTrail","order":14,"path":"objects/obj_dashTrail/obj_dashTrail.yy",},
+    {"name":"obj_musicController","order":17,"path":"objects/obj_musicController/obj_musicController.yy",},
     {"name":"spr_crack3","order":2,"path":"sprites/spr_crack3/spr_crack3.yy",},
+    {"name":"snd_song3","order":4,"path":"sounds/snd_song3/snd_song3.yy",},
+    {"name":"obj_button_settings","order":4,"path":"objects/obj_button_settings/obj_button_settings.yy",},
     {"name":"spr_bounds","order":2,"path":"sprites/spr_bounds/spr_bounds.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
@@ -34,7 +38,7 @@
     {"name":"spr_dashTrail","order":2,"path":"sprites/spr_dashTrail/spr_dashTrail.yy",},
     {"name":"obj_boundsCorner","order":3,"path":"objects/obj_boundsCorner/obj_boundsCorner.yy",},
     {"name":"ts_300","order":1,"path":"tilesets/ts_300/ts_300.yy",},
-    {"name":"snd_titlesong","order":1,"path":"sounds/snd_titlesong/snd_titlesong.yy",},
+    {"name":"snd_song4","order":1,"path":"sounds/snd_song4/snd_song4.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
   ],
 }

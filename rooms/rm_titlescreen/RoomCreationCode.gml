@@ -1,1 +1,0 @@
-global.titlemusic = audio_play_sound(snd_titlesong, 1, true); 

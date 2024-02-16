@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_samplesong",
+  "name": "snd_song2",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_samplesong.mp3",
+  "soundFile": "snd_song2.mp3",
   "type": 0,
   "volume": 1.0,
 }
