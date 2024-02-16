@@ -59,28 +59,30 @@ if (keyboard_check_pressed(vk_space) && !isDashing && dashTimer >= dashCooldown)
 {
     isDashing = true;
     dashTimer = 0;
-    var _trail = instance_create_layer(x, y, "Instances", obj_dashTrail);
-	
+    dashSpeed = mySpeed * 4; 
 }
 
 if (isDashing) 
 {
-	// Dash in the direction player is facing
-    if (image_xscale < 0) 
-	{
-        x -= dashSpeed;
-    } else 
-	{
-        x += dashSpeed;
+    var _trail = instance_create_layer(x, y, "Instances", obj_dashTrail);
+	_trail.image_xscale = image_xscale;  
+    _trail.image_yscale = image_yscale;  
+	
+	
+    var proposedX = x + (image_xscale < 0 ? -dashSpeed : dashSpeed);
+
+    if (!place_meeting(proposedX, y, obj_bounds)) 
+    {
+        x = proposedX;
     }
 
     dashSpeed--;
-	// Stop dashing once the speed is <= 0
-	// Using speed as dash duration to create effect
+
+    // Stop dashing once the speed is <= 0
+    // Using speed decrement as a timer for dash duration
     if (dashSpeed <= 0) 
-	{
+    {
         isDashing = false;
-		dashSpeed = mySpeed * 4;
     }
 }
 
