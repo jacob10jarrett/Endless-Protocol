@@ -20,6 +20,7 @@
     {"name":"Crates","order":8,"path":"folders/Sprites/Props/Crates.yy",},
     {"name":"FloorCracks","order":7,"path":"folders/Sprites/Props/FloorCracks.yy",},
     {"name":"Rocks","order":9,"path":"folders/Sprites/Props/Rocks.yy",},
+    {"name":"Temp","order":12,"path":"folders/Sprites/Temp.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Temp","order":12,"path":"folders/Sprites/Temp.yy",},

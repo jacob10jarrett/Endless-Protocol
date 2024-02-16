@@ -24,6 +24,7 @@ key_down = keyboard_check(ord("S"));
 	
 
 
+// Player sprite animation stops playing when not moving
 if(hsp == 0) and (vsp == 0)
 {
 	image_index = 1;
