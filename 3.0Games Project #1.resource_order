@@ -43,7 +43,7 @@
     {"name":"spr_Crate4","order":3,"path":"sprites/spr_Crate4/spr_Crate4.yy",},
     {"name":"spr_Crate2","order":1,"path":"sprites/spr_Crate2/spr_Crate2.yy",},
     {"name":"obj_weapon_primary","order":3,"path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},
-    {"name":"spr_playerArm","order":15,"path":"sprites/spr_playerArm/spr_playerArm.yy",},
+    {"name":"spr_playerArm","order":12,"path":"sprites/spr_playerArm/spr_playerArm.yy",},
     {"name":"spr_dashTrail","order":2,"path":"sprites/spr_dashTrail/spr_dashTrail.yy",},
     {"name":"obj_boundsCorner","order":3,"path":"objects/obj_boundsCorner/obj_boundsCorner.yy",},
     {"name":"ts_300","order":1,"path":"tilesets/ts_300/ts_300.yy",},
