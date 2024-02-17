@@ -91,6 +91,7 @@
     {"id":{"name":"snd_song2","path":"sounds/snd_song2/snd_song2.yy",},},
     {"id":{"name":"spr_Crate2","path":"sprites/spr_Crate2/spr_Crate2.yy",},},
     {"id":{"name":"ts_Tileset","path":"tilesets/ts_Tileset/ts_Tileset.yy",},},
+    {"id":{"name":"spr_playerArm","path":"sprites/spr_playerArm/spr_playerArm.yy",},},
     {"id":{"name":"spr_dashTrail","path":"sprites/spr_dashTrail/spr_dashTrail.yy",},},
     {"id":{"name":"obj_boundsCorner","path":"objects/obj_boundsCorner/obj_boundsCorner.yy",},},
     {"id":{"name":"ts_300","path":"tilesets/ts_300/ts_300.yy",},},
