@@ -143,7 +143,6 @@
     {"name":"inst_EBB877A","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_41EFDEA4","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_44CF39CB","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_6E253C89","path":"rooms/rm_game2/rm_game2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -286,7 +285,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EBB877A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3872.0,"y":2016.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EFDEA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4224.0,"y":2432.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44CF39CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E253C89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_weapon_primary","path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2592.0,"y":4032.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Props","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_532F295D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":-2.564087,"scaleX":3.0,"scaleY":3.0,"spriteId":{"name":"spr_rock3","path":"sprites/spr_rock3/spr_rock3.yy",},"x":1600.0,"y":4320.0,},
