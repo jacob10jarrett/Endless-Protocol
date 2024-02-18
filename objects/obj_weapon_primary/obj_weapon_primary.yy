@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_playerArm",
-    "path": "sprites/spr_playerArm/spr_playerArm.yy",
+    "name": "spr_playerWeapon",
+    "path": "sprites/spr_playerWeapon/spr_playerWeapon.yy",
   },
   "spriteMaskId": null,
   "visible": true,
