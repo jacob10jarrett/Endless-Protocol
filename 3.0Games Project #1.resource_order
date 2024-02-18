@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
     {"name":"Player","order":19,"path":"folders/Objects/Player.yy",},
+    {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -14,6 +14,7 @@
     {"name":"rm_game2","order":3,"path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"obj_rock","order":5,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"obj_crack","order":6,"path":"objects/obj_crack/obj_crack.yy",},
+    {"name":"fnt_titlescreen2","order":1,"path":"fonts/fnt_titlescreen2/fnt_titlescreen2.yy",},
     {"name":"obj_crate","order":4,"path":"objects/obj_crate/obj_crate.yy",},
     {"name":"spr_tileSet300","order":8,"path":"sprites/spr_tileSet300/spr_tileSet300.yy",},
     {"name":"obj_game","order":9,"path":"objects/obj_game/obj_game.yy",},
@@ -47,6 +48,7 @@
     {"name":"obj_boundsCorner","order":3,"path":"objects/obj_boundsCorner/obj_boundsCorner.yy",},
     {"name":"ts_300","order":1,"path":"tilesets/ts_300/ts_300.yy",},
     {"name":"snd_song4","order":1,"path":"sounds/snd_song4/snd_song4.yy",},
+    {"name":"obj_menu_controller","order":5,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
   ],
 }
