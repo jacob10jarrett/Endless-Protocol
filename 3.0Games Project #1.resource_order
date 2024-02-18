@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
+    {"name":"EnemySystem","order":23,"path":"folders/Objects/EnemySystem.yy",},
     {"name":"Player","order":19,"path":"folders/Objects/Player.yy",},
     {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
-    {"name":"EnemySystem","order":23,"path":"folders/Objects/EnemySystem.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
