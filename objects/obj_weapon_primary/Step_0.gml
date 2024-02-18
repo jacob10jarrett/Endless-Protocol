@@ -1,12 +1,12 @@
 dir = point_direction(x, y, mouse_x, mouse_y);
 if (mouse_x < x) 
 	{
-        image_xscale = -1;
+        image_xscale = -abs(image_xscale);
         dir += 180;
     } 
 	else 
 	{
-        image_xscale = 1;
+        image_xscale = abs(image_xscale)
     }
 
     
