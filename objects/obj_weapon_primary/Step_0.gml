@@ -13,4 +13,4 @@ if (mouse_x < x)
 
 image_angle = dir;
 x = obj_player.x
-y = obj_player.y
+y = obj_player.y - 10

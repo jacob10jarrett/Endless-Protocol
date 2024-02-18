@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
+    {"name":"Player","order":19,"path":"folders/Objects/Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -29,7 +30,6 @@
     {"name":"spr_bounds","order":2,"path":"sprites/spr_bounds/spr_bounds.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
-    {"name":"obj_player","order":7,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_weapon_parent","order":2,"path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},
     {"name":"spr_rock3","order":1,"path":"sprites/spr_rock3/spr_rock3.yy",},
     {"name":"spr_crates","order":10,"path":"sprites/spr_crates/spr_crates.yy",},
