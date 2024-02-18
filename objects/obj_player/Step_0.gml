@@ -33,25 +33,20 @@ if(_hsp == 0) and (_vsp == 0)
 
 
 // Sprite flipping
-if (mouse_x > x) 
+if (keyLeft) 
 {
-    image_xscale = abs(image_xscale)
-	playerDirection = 1
-
-} else 
-{
-    image_xscale = -abs(image_xscale)
-	playerDirection = -1
+    // If moving left, flip the sprite
+    if (image_xscale > 0) 
+	{
+        image_xscale *= -1; // Flip horizontally
+    }
+} else if (keyRight) {
+    // If moving right, ensure the sprite is in its default orientation
+    if (image_xscale < 0) 
+	{
+        image_xscale *= -1; // Make it positive
+    }
 }
-
-// Determine direction dash should go based on sign of hsp
-var dashDirection = sign(_hsp)
-if (dashDirection = 0)	// If standing still, default dash to player direction
-{
-	dashDirection = playerDirection
-}
-
-
 
 // Increase dash timer until it reaches the dash cooldown
 if (dashTimer < dashCooldown && !isDashing) 
@@ -63,7 +58,8 @@ if (dashTimer < dashCooldown && !isDashing)
 if (keyboard_check_pressed(vk_space) && !isDashing && dashTimer >= dashCooldown) 
 {
     isDashing = true;
-    dashTimer = 0; 
+    dashTimer = 0;
+    dashSpeed = mySpeed * 4; 
 }
 
 if (isDashing) 
@@ -73,7 +69,7 @@ if (isDashing)
     _trail.image_yscale = image_yscale;  
 	
 	
-    var proposedX = x + (dashSpeed * dashDirection);
+    var proposedX = x + (image_xscale < 0 ? -dashSpeed : dashSpeed);
 
     if (!place_meeting(proposedX, y, obj_bounds)) 
     {
@@ -87,9 +83,6 @@ if (isDashing)
     if (dashSpeed <= 0) 
     {
         isDashing = false;
-		dashSpeed = mySpeed * 5
     }
 }
-
-
 

@@ -1,1 +1,1 @@
-var shoot = instance_create_layer(x,y-10,"Instances",obj_weapon_primaryFire)
+var shoot = instance_create_layer(x,y-10,"Instances",obj_weapon_primary)
