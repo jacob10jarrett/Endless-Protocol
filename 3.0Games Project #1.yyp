@@ -53,6 +53,7 @@
     {"id":{"name":"obj_dashUI","path":"objects/obj_dashUI/obj_dashUI.yy",},},
     {"id":{"name":"spr_playerWeapon","path":"sprites/spr_playerWeapon/spr_playerWeapon.yy",},},
     {"id":{"name":"spr_Crate1","path":"sprites/spr_Crate1/spr_Crate1.yy",},},
+    {"id":{"name":"obj_stopwatch","path":"objects/obj_stopwatch/obj_stopwatch.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},

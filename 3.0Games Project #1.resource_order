@@ -11,6 +11,7 @@
     {"name":"spr_boundsCorner","order":3,"path":"sprites/spr_boundsCorner/spr_boundsCorner.yy",},
     {"name":"obj_dashUI","order":15,"path":"objects/obj_dashUI/obj_dashUI.yy",},
     {"name":"spr_playerWeapon","order":14,"path":"sprites/spr_playerWeapon/spr_playerWeapon.yy",},
+    {"name":"obj_stopwatch","order":21,"path":"objects/obj_stopwatch/obj_stopwatch.yy",},
     {"name":"obj_title","order":4,"path":"objects/obj_title/obj_title.yy",},
     {"name":"rm_game2","order":3,"path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"obj_rock","order":5,"path":"objects/obj_rock/obj_rock.yy",},
