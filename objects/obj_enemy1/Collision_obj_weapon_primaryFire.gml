@@ -1,4 +1,4 @@
-health -= 35;
+health -= 50;
 
 // Set hit flag
 hit = true;

@@ -35,6 +35,7 @@
     {"name":"obj_button_settings","order":4,"path":"objects/obj_button_settings/obj_button_settings.yy",},
     {"name":"spr_bounds","order":2,"path":"sprites/spr_bounds/spr_bounds.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
+    {"name":"obj_enemy_parent","order":3,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"obj_reticle","order":20,"path":"objects/obj_reticle/obj_reticle.yy",},
     {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_enemy1","order":2,"path":"objects/obj_enemy1/obj_enemy1.yy",},
