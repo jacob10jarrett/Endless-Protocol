@@ -51,7 +51,6 @@
     {"id":{"name":"obj_weapon_bomb","path":"objects/obj_weapon_bomb/obj_weapon_bomb.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_reticle","path":"sprites/spr_reticle/spr_reticle.yy",},},
-    {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"spr_boundsCorner","path":"sprites/spr_boundsCorner/spr_boundsCorner.yy",},},
     {"id":{"name":"obj_dashUI","path":"objects/obj_dashUI/obj_dashUI.yy",},},
     {"id":{"name":"spr_playerWeapon","path":"sprites/spr_playerWeapon/spr_playerWeapon.yy",},},

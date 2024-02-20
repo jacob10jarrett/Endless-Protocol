@@ -1,4 +1,4 @@
-with(obj_enemy_parent){
+with(obj_enemy1){
 
 direction = point_direction(x, y, obj_player.x, obj_player.y);
 speed = walkSpeed;
