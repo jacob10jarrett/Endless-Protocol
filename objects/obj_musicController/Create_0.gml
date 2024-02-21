@@ -1,9 +1,9 @@
 randomize(); 
 
-soundtrack[0] = snd_song1;
-soundtrack[1] = snd_song2;
-soundtrack[2] = snd_song3;
-soundtrack[3] = snd_song4;
+global.soundtrack[0] = snd_song1;
+global.soundtrack[1] = snd_song2;
+global.soundtrack[2] = snd_song3;
+global.soundtrack[3] = snd_song4;
 
 played_songs = ds_list_create();
 playlist = ds_list_create(); 
@@ -14,7 +14,7 @@ function shuffle_playlist() {
     ds_list_clear(playlist);
 
     var indices = [];
-    for (var i = 0; i < array_length_1d(soundtrack); i++) {
+    for (var i = 0; i < array_length_1d(global.soundtrack); i++) {
         indices[i] = i;
     }
 
