@@ -7,7 +7,6 @@
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_weapon_primaryFire","order":1,"path":"objects/obj_weapon_primaryFire/obj_weapon_primaryFire.yy",},
-    {"name":"obj_volume_slider","order":24,"path":"objects/obj_volume_slider/obj_volume_slider.yy",},
     {"name":"snd_song1","order":2,"path":"sounds/snd_song1/snd_song1.yy",},
     {"name":"spr_enemy1","order":16,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
     {"name":"spr_reticle","order":15,"path":"sprites/spr_reticle/spr_reticle.yy",},
@@ -44,6 +43,7 @@
     {"name":"obj_weapon_parent","order":2,"path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},
     {"name":"spr_rock3","order":1,"path":"sprites/spr_rock3/spr_rock3.yy",},
     {"name":"spr_crates","order":10,"path":"sprites/spr_crates/spr_crates.yy",},
+    {"name":"obj_button_mute","order":6,"path":"objects/obj_button_mute/obj_button_mute.yy",},
     {"name":"rm_titlescreen","order":1,"path":"rooms/rm_titlescreen/rm_titlescreen.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_Crate3","order":2,"path":"sprites/spr_Crate3/spr_Crate3.yy",},

@@ -47,7 +47,6 @@
   "resources": [
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"obj_weapon_primaryFire","path":"objects/obj_weapon_primaryFire/obj_weapon_primaryFire.yy",},},
-    {"id":{"name":"obj_volume_slider","path":"objects/obj_volume_slider/obj_volume_slider.yy",},},
     {"id":{"name":"snd_song1","path":"sounds/snd_song1/snd_song1.yy",},},
     {"id":{"name":"obj_weapon_bomb","path":"objects/obj_weapon_bomb/obj_weapon_bomb.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
@@ -89,6 +88,7 @@
     {"id":{"name":"spr_rock3","path":"sprites/spr_rock3/spr_rock3.yy",},},
     {"id":{"name":"spr_crates","path":"sprites/spr_crates/spr_crates.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"obj_button_mute","path":"objects/obj_button_mute/obj_button_mute.yy",},},
     {"id":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"fnt_titlescreen","path":"fonts/fnt_titlescreen/fnt_titlescreen.yy",},},
