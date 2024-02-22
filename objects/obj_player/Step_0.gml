@@ -1,9 +1,10 @@
-//Movement inputs
-keyRight = keyboard_check(ord("D"));
-keyLeft = keyboard_check(ord("A"));
-keyUp = keyboard_check(ord("W"));
-keyDown = keyboard_check(ord("S"));
-keyDash = keyboard_check_pressed(vk_space);
+// Movement inputs
+// Movement inputs
+keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
+keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
+keyUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
+keyDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
+keyDash = keyboard_check_pressed(vk_space); 
 
 //player movement
 	//direction
