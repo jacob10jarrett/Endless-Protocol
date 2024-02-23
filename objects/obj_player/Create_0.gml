@@ -1,6 +1,11 @@
 maxHealth = 100;  
 currentHealth = 100;  
 
+_hsp = 0;
+_vsp = 0;
+
+global.playerIsMoving = false; 
+
 mySpeed = 4;
 hsp = 0;
 vsp = 0;

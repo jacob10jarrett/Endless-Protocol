@@ -1,15 +1,20 @@
 // Movement inputs
-// Movement inputs
 keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
 keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 keyUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 keyDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 keyDash = keyboard_check_pressed(vk_space); 
 
+if (keyRight || keyLeft || keyUp || keyDown) {
+    global.playerIsMoving = true;
+} else {
+    global.playerIsMoving = false;
+}
+
 //player movement
 	//direction
-	var _hsp = (keyRight - keyLeft) * mySpeed
-	var _vsp = (keyDown - keyUp) * mySpeed
+	_hsp = (keyRight - keyLeft) * mySpeed;
+    _vsp = (keyDown - keyUp) * mySpeed;
 	
 	//Collision
 	if place_meeting(x + _hsp, y, obj_bounds)
@@ -24,8 +29,6 @@ keyDash = keyboard_check_pressed(vk_space);
 	x += _hsp
 	y += _vsp
 	
-
-
 // Player sprite animation stops playing when not moving
 if(_hsp == 0) and (_vsp == 0)
 {
@@ -91,6 +94,5 @@ if (isDashing)
 		dashSpeed = mySpeed * 5
     }
 }
-
 
 
