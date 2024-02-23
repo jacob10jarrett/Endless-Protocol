@@ -20,5 +20,6 @@ repeat(2){
 var XX = obj_player.x + lengthdir_x(1000, dir );
 var YY = obj_player.y + lengthdir_y(1000, dir );
 instance_create_layer(XX, YY, "Instances", obj_enemy1);
+//instance_create_layer(XX, YY, "Instances", obj_enemy2);
 }
 alarm[1] = alarmSpawnTime;
