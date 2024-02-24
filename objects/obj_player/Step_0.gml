@@ -5,11 +5,8 @@ keyUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
 keyDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 keyDash = keyboard_check_pressed(vk_space); 
 
-if (keyRight || keyLeft || keyUp || keyDown) {
-    global.playerIsMoving = true;
-} else {
-    global.playerIsMoving = false;
-}
+global.playerIsMoving = keyboard_check(ord("D")) || keyboard_check(ord("A")) || keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_up) || keyboard_check(vk_down);
+
 
 //player movement
 	//direction

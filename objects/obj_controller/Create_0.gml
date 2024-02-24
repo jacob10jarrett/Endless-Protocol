@@ -1,5 +1,5 @@
 //movement
-alarmTime = 20;
+alarmTime = 60;
 alarm[0] = alarmTime;
 
 
