@@ -1,3 +1,5 @@
+damage = 50
+
 bounced = false
 
 image_angle = obj_weapon_primary.image_angle
