@@ -1,9 +1,9 @@
-hp -= obj_weapon_primaryFire.damage;
+enemyHp -= obj_weapon_primaryFire.damage;
 instance_destroy(other)
 
 
 
-if (hp <= 0) {
+if (enemyHp <= 0) {
     instance_destroy();
 }
 

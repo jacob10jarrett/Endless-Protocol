@@ -12,7 +12,7 @@ vsp = 0;
 playerDirection = 1
 
 //Weapon fire rate
-alarmtime_0 = 10;
+alarmtime_0 = 20;
 alarmtime_1 = 120;
 
 alarm[0] = alarmtime_0;
