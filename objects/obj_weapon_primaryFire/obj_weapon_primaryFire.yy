@@ -8,7 +8,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_weapon_parent","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"value":"25",},
+  ],
   "parent": {
     "name": "Weapons",
     "path": "folders/Objects/Weapons.yy",

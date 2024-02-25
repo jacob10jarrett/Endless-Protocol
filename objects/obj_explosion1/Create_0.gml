@@ -1,0 +1,1 @@
+audio_play_sound(snd_small_bomb,2,false)
