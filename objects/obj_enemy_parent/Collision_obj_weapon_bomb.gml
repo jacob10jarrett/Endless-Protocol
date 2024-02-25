@@ -1,15 +1,7 @@
-health -= obj_weapon_bomb.damage;
+hp -= obj_weapon_bomb.damage;
+instance_destroy(other)
 
-// Set hit flag
-hit = true;
-
-with(other) {
-    health -= obj_weapon_bomb.damage;
-    hit = true; // Set the hit flag to true
-	
-		
-}
-if (health <= 0) {
+if (hp <= 0) {
     instance_destroy();
 }
 

@@ -1,18 +1,10 @@
-health -= 50;
+hp -= obj_weapon_primaryFire.damage;
+instance_destroy(other)
 
-// Set hit flag
-hit = true;
 
-with(other) {
-    health -= 50;
-    hit = true; // Set the hit flag to true
-	
-		
-}
-if (health <= 0) {
+
+if (hp <= 0) {
     instance_destroy();
 }
-
-
 
 

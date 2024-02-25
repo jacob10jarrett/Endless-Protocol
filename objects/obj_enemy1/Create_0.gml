@@ -1,4 +1,4 @@
 event_inherited();
 
-health = 100;
+hp = 100;
 
