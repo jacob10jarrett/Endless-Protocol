@@ -13,7 +13,7 @@ playerDirection = 1
 
 //Weapon fire rate
 alarmtime_0 = 20;
-alarmtime_1 = 120;
+alarmtime_1 = 70;
 
 alarm[0] = alarmtime_0;
 alarm[1] = alarmtime_1;
