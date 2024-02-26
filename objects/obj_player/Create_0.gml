@@ -12,7 +12,7 @@ vsp = 0;
 playerDirection = 1
 
 //Weapon fire rate
-alarmtime_0 = 10;
+alarmtime_0 = 20;
 alarmtime_1 = 70;
 
 alarm[0] = alarmtime_0;
@@ -23,3 +23,7 @@ dashSpeed = mySpeed * 5;
 dashCooldown = 360;
 dashTimer = 0; 
 isDashing = false;
+
+expValue = 0
+playerExp = 0
+playerLevel = 0
