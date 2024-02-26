@@ -24,6 +24,11 @@ dashCooldown = 360;
 dashTimer = 0; 
 isDashing = false;
 
-expValue = 0
+globalvar playerExp;
+globalvar playerLevel;
+globalvar expMax;
+
 playerExp = 0
 playerLevel = 0
+expMax = 100
+

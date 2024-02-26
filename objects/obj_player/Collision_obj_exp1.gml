@@ -1,2 +1,2 @@
-playerExp += expValue
+playerExp += other.expValue
 instance_destroy(other)
