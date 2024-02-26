@@ -9,6 +9,7 @@ if (!global.initialized) {
     global.soundtrack[1] = snd_song2;
     global.soundtrack[2] = snd_song3;
     global.soundtrack[3] = snd_song4;
+	global.soundtrack[5] = snd_song5;
 
     global.played_songs = ds_list_create();
     global.playlist = ds_list_create(); 

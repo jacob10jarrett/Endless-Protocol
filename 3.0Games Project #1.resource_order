@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings": [
     {"name":"EnemySystem","order":23,"path":"folders/Objects/EnemySystem.yy",},
+    {"name":"Explosions","order":28,"path":"folders/Objects/Explosions.yy",},
     {"name":"Player","order":19,"path":"folders/Objects/Player.yy",},
     {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
     {"name":"EnemySprites","order":23,"path":"folders/Sprites/EnemySprites.yy",},
     {"name":"Explosions","order":26,"path":"folders/Sprites/Explosions.yy",},
-    {"name":"Explosions","order":28,"path":"folders/Objects/Explosions.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -37,6 +37,7 @@
     {"name":"obj_playerparticle","order":26,"path":"objects/obj_playerparticle/obj_playerparticle.yy",},
     {"name":"obj_slider_parent","order":24,"path":"objects/obj_slider_parent/obj_slider_parent.yy",},
     {"name":"obj_bounds","order":2,"path":"objects/obj_bounds/obj_bounds.yy",},
+    {"name":"snd_song5","order":8,"path":"sounds/snd_song5/snd_song5.yy",},
     {"name":"obj_button_help","order":1,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"spr_rock1","order":2,"path":"sprites/spr_rock1/spr_rock1.yy",},
     {"name":"obj_dashTrail","order":14,"path":"objects/obj_dashTrail/obj_dashTrail.yy",},
