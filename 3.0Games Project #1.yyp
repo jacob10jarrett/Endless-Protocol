@@ -85,6 +85,7 @@
     {"id":{"name":"obj_playerparticle","path":"objects/obj_playerparticle/obj_playerparticle.yy",},},
     {"id":{"name":"obj_slider_parent","path":"objects/obj_slider_parent/obj_slider_parent.yy",},},
     {"id":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},},
+    {"id":{"name":"snd_song5","path":"sounds/snd_song5/snd_song5.yy",},},
     {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
     {"id":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},},
     {"id":{"name":"get_hsp","path":"scripts/get_hsp/get_hsp.yy",},},
