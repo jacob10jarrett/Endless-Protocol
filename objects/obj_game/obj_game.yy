@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UIscreens",
+    "path": "folders/Objects/UIscreens.yy",
   },
   "parentObjectId": null,
   "persistent": false,

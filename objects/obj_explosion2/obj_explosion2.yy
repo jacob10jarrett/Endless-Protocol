@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Explosions",
-    "path": "folders/Objects/Explosions.yy",
+    "name": "Effects",
+    "path": "folders/Objects/Effects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
