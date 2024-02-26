@@ -41,6 +41,7 @@
     {"name":"spr_rock1","order":2,"path":"sprites/spr_rock1/spr_rock1.yy",},
     {"name":"obj_dashTrail","order":14,"path":"objects/obj_dashTrail/obj_dashTrail.yy",},
     {"name":"obj_deadEnemy1","order":3,"path":"objects/obj_deadEnemy1/obj_deadEnemy1.yy",},
+    {"name":"obj_explosion2","order":1,"path":"objects/obj_explosion2/obj_explosion2.yy",},
     {"name":"obj_musicController","order":17,"path":"objects/obj_musicController/obj_musicController.yy",},
     {"name":"spr_crack3","order":2,"path":"sprites/spr_crack3/spr_crack3.yy",},
     {"name":"snd_song3","order":4,"path":"sounds/snd_song3/snd_song3.yy",},
@@ -74,6 +75,7 @@
     {"name":"obj_button_next","order":9,"path":"objects/obj_button_next/obj_button_next.yy",},
     {"name":"spr_tileSet","order":1,"path":"sprites/spr_tileSet/spr_tileSet.yy",},
     {"name":"spr_button1","order":2,"path":"sprites/spr_button1/spr_button1.yy",},
+    {"name":"spr_explosion2","order":1,"path":"sprites/spr_explosion2/spr_explosion2.yy",},
     {"name":"spr_Crate4","order":3,"path":"sprites/spr_Crate4/spr_Crate4.yy",},
     {"name":"rm_missionbrief","order":5,"path":"rooms/rm_missionbrief/rm_missionbrief.yy",},
     {"name":"spr_Crate2","order":1,"path":"sprites/spr_Crate2/spr_Crate2.yy",},
@@ -86,6 +88,7 @@
     {"name":"snd_song4","order":1,"path":"sounds/snd_song4/snd_song4.yy",},
     {"name":"spr_enemy2","order":2,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"obj_menu_controller","order":5,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
+    {"name":"snd_hitmarker","order":7,"path":"sounds/snd_hitmarker/snd_hitmarker.yy",},
     {"name":"rm_game","order":2,"path":"rooms/rm_game/rm_game.yy",},
   ],
 }

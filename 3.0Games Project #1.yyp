@@ -86,6 +86,7 @@
     {"id":{"name":"get_hsp","path":"scripts/get_hsp/get_hsp.yy",},},
     {"id":{"name":"obj_dashTrail","path":"objects/obj_dashTrail/obj_dashTrail.yy",},},
     {"id":{"name":"obj_deadEnemy1","path":"objects/obj_deadEnemy1/obj_deadEnemy1.yy",},},
+    {"id":{"name":"obj_explosion2","path":"objects/obj_explosion2/obj_explosion2.yy",},},
     {"id":{"name":"obj_musicController","path":"objects/obj_musicController/obj_musicController.yy",},},
     {"id":{"name":"spr_crack3","path":"sprites/spr_crack3/spr_crack3.yy",},},
     {"id":{"name":"snd_song3","path":"sounds/snd_song3/snd_song3.yy",},},
@@ -126,6 +127,7 @@
     {"id":{"name":"spr_button1","path":"sprites/spr_button1/spr_button1.yy",},},
     {"id":{"name":"spr_crack1","path":"sprites/spr_crack1/spr_crack1.yy",},},
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},},
+    {"id":{"name":"spr_explosion2","path":"sprites/spr_explosion2/spr_explosion2.yy",},},
     {"id":{"name":"spr_tile1","path":"sprites/spr_tile1/spr_tile1.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"spr_Crate4","path":"sprites/spr_Crate4/spr_Crate4.yy",},},
@@ -142,6 +144,7 @@
     {"id":{"name":"snd_song4","path":"sounds/snd_song4/snd_song4.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
+    {"id":{"name":"snd_hitmarker","path":"sounds/snd_hitmarker/snd_hitmarker.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
