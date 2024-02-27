@@ -17,10 +17,8 @@ if (playerExp >= expMax)
 	
 	var upgrade = instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_upgrade)
 	
-	var cardOne = instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_card1)
-		
-	var cardTwo = instance_create_layer(obj_player.x - 400, obj_player.y, "UpgradeCards", obj_card2)
-	
-	var cardThree = instance_create_layer(obj_player.x + 400, obj_player.y, "UpgradeCards", obj_card3)
+	instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_card1)
+	instance_create_layer(obj_player.x - 400, obj_player.y, "UpgradeCards", obj_card1)
+	instance_create_layer(obj_player.x + 400, obj_player.y, "UpgradeCards", obj_card1)
 }
 
