@@ -146,7 +146,6 @@
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},},
     {"id":{"name":"spr_explosion2","path":"sprites/spr_explosion2/spr_explosion2.yy",},},
     {"id":{"name":"spr_tile1","path":"sprites/spr_tile1/spr_tile1.yy",},},
-    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"spr_Crate4","path":"sprites/spr_Crate4/spr_Crate4.yy",},},
     {"id":{"name":"rm_missionbrief","path":"rooms/rm_missionbrief/rm_missionbrief.yy",},},
     {"id":{"name":"snd_song2","path":"sounds/snd_song2/snd_song2.yy",},},

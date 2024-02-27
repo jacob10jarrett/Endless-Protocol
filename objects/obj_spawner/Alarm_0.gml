@@ -22,25 +22,7 @@ if ( !position_meeting(XX,YY, [obj_bounds, obj_boundsCorner]) )
 instance_create_layer(XX, YY, "Instances", enemyType);
 }
 
-//set direction and walkspeed
-with(obj_enemy1)
-{
 
-direction = point_direction(x, y, obj_player.x, obj_player.y);
-speed = obj_enemy1.movementSpeed;
-
-//sprite flip
-if (obj_player.x > x)
-{ 
-	image_xscale = 1;
-	
-}
-	else 
-	{
-	image_xscale = -1;
-	}
-
-}
 
 	
 
