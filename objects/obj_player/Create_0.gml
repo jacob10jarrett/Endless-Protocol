@@ -12,7 +12,7 @@ vsp = 0;
 playerDirection = 1
 
 //Weapon fire rate
-alarmtime_0 = 20;
+alarmtime_0 = 8;
 alarmtime_1 = 70;
 
 alarm[0] = alarmtime_0;
@@ -31,4 +31,10 @@ globalvar expMax;
 playerExp = 0
 playerLevel = 1
 expMax = 100
+
+
+globalvar selectedCard;
+selectedCard = noone
+
+
 

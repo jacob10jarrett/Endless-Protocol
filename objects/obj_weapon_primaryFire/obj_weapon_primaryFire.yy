@@ -9,7 +9,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_weapon_parent","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"value":"25",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_weapon_parent","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"value":"15",},
   ],
   "parent": {
     "name": "Weapons",

@@ -1,3 +1,10 @@
+
+if(instance_exists(obj_upgrade))
+{
+	image_speed = 0
+	exit;
+}
+
 // Movement inputs
 keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
 keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
@@ -6,7 +13,7 @@ keyDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 keyDash = keyboard_check_pressed(vk_space); 
 
 global.playerIsMoving = keyboard_check(ord("D")) || keyboard_check(ord("A")) || keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_up) || keyboard_check(vk_down);
-
+image_speed = 1
 
 //player movement
 	//direction

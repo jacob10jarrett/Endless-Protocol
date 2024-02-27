@@ -1,5 +1,12 @@
 //activate + spawn
 
+alarm[1] = alarmSpawnTime;
+
+if (instance_exists(obj_upgrade))
+{
+	exit;
+}
+
 var _vx = camera_get_view_x(view_camera[0]);
 var _vy = camera_get_view_y(view_camera[0]);
 var _vw = camera_get_view_width(view_camera[0]);
@@ -22,4 +29,3 @@ var YY = obj_player.y + lengthdir_y(1000, dir );
 instance_create_layer(XX, YY, "Instances", obj_enemy1);
 //instance_create_layer(XX, YY, "Instances", obj_enemy2);
 }
-alarm[1] = alarmSpawnTime;

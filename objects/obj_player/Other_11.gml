@@ -1,3 +1,8 @@
+if (instance_exists(obj_upgrade))
+{
+	exit;
+}
+
 var bomb = instance_create_layer(x,y,"Instances",obj_weapon_bomb)
 	
 	bomb.direction = irandom_range(45,135)

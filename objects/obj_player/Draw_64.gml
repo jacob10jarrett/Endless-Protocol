@@ -20,18 +20,11 @@ draw_rectangle(healthBarX, healthBarY, healthBarX + healthBarWidth * healthPerce
 var screenWidth = display_get_gui_width() - 20
 draw_set_color(c_black); 
 draw_rectangle(20, 20, screenWidth, 0, false)
-draw_text(60,20,playerLevel)
+draw_text(60,18,playerLevel)
 
 
 if (playerExp / expMax * screenWidth > 20)
 {
 	draw_set_color(c_aqua); 
 	draw_rectangle(20, 20, (playerExp / expMax * screenWidth), 0, false)
-}
-
-if (playerExp >= expMax)
-{
-	playerExp = 0
-	expMax = (30 + (playerLevel * 100) - 20)
-	playerLevel++
 }
