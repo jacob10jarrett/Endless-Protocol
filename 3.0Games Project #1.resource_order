@@ -1,13 +1,13 @@
 {
   "FolderOrderSettings": [
-    {"name":"EnemySystem","order":23,"path":"folders/Objects/EnemySystem.yy",},
     {"name":"Effects","order":28,"path":"folders/Objects/Effects.yy",},
+    {"name":"EnemySystem","order":23,"path":"folders/Objects/EnemySystem.yy",},
+    {"name":"Music","order":30,"path":"folders/Objects/Music.yy",},
     {"name":"Player","order":19,"path":"folders/Objects/Player.yy",},
+    {"name":"UIscreens","order":29,"path":"folders/Objects/UIscreens.yy",},
     {"name":"Weapons","order":16,"path":"folders/Objects/Weapons.yy",},
     {"name":"EnemySprites","order":23,"path":"folders/Sprites/EnemySprites.yy",},
     {"name":"Explosions","order":26,"path":"folders/Sprites/Explosions.yy",},
-    {"name":"UIscreens","order":29,"path":"folders/Objects/UIscreens.yy",},
-    {"name":"Music","order":30,"path":"folders/Objects/Music.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},
@@ -29,6 +29,7 @@
     {"name":"spr_exp3","order":5,"path":"sprites/spr_exp3/spr_exp3.yy",},
     {"name":"obj_crate","order":4,"path":"objects/obj_crate/obj_crate.yy",},
     {"name":"rm_titlescreen2","order":6,"path":"rooms/rm_titlescreen2/rm_titlescreen2.yy",},
+    {"name":"obj_spawner","order":9,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"obj_exp1","order":6,"path":"objects/obj_exp1/obj_exp1.yy",},
     {"name":"obj_title_settings","order":4,"path":"objects/obj_title_settings/obj_title_settings.yy",},
     {"name":"obj_button_fullscreen","order":8,"path":"objects/obj_button_fullscreen/obj_button_fullscreen.yy",},
