@@ -1,3 +1,8 @@
+if(instance_exists(obj_upgrade))
+{
+	exit;
+}
+
 dir = point_direction(x, y, mouse_x, mouse_y);
 if (mouse_x < x) 
 	{
