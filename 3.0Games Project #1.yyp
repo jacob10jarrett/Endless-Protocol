@@ -81,7 +81,6 @@
     {"id":{"name":"spr_exp2","path":"sprites/spr_exp2/spr_exp2.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"spr_deadenemy2","path":"sprites/spr_deadenemy2/spr_deadenemy2.yy",},},
-    {"id":{"name":"obj_expUI","path":"objects/obj_expUI/obj_expUI.yy",},},
     {"id":{"name":"fnt_titlescreen3","path":"fonts/fnt_titlescreen3/fnt_titlescreen3.yy",},},
     {"id":{"name":"spr_tempPrimaryFire","path":"sprites/spr_tempPrimaryFire/spr_tempPrimaryFire.yy",},},
     {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},},

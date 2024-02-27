@@ -4,7 +4,7 @@ if (instance_exists(player)) {
         var cooldownPercent = player.dashTimer / player.dashCooldown;
         var barWidth = 150;
         var barHeight = 20;
-        var xPosition = 10;
+        var xPosition = 20;
         var yPosition = 100;
 		
         draw_set_color(c_black);

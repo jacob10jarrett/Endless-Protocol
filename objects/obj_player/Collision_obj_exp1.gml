@@ -1,2 +1,2 @@
-playerExp += other.expValue
-instance_destroy(other)
+playerExp += other.expValue;
+instance_destroy(other);

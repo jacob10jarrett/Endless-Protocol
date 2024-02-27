@@ -4,7 +4,6 @@ instance_destroy(other)
 
 if (enemyHp <= 0) {
     instance_destroy();
-	instance_create_layer(x, y, "Instances", obj_exp1)
 }
 
 

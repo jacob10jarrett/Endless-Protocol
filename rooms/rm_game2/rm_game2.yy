@@ -160,7 +160,6 @@
     {"name":"inst_5AAEDD14","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_23446D91","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_61A50C7B","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_58E90A7E","path":"rooms/rm_game2/rm_game2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -316,7 +315,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EFDEA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4224.0,"y":2432.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44CF39CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D89FFC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_weapon_primary","path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},"properties":[],"rotation":0.0,"scaleX":1.4210526,"scaleY":1.4210526,"x":2591.9998,"y":4096.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58E90A7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_expUI","path":"objects/obj_expUI/obj_expUI.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3680.0,"y":2720.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Bodies_Effects","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

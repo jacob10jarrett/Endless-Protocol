@@ -36,7 +36,6 @@
     {"name":"spr_exp2","order":4,"path":"sprites/spr_exp2/spr_exp2.yy",},
     {"name":"obj_game","order":2,"path":"objects/obj_game/obj_game.yy",},
     {"name":"spr_deadenemy2","order":4,"path":"sprites/spr_deadenemy2/spr_deadenemy2.yy",},
-    {"name":"obj_expUI","order":6,"path":"objects/obj_expUI/obj_expUI.yy",},
     {"name":"fnt_titlescreen3","order":2,"path":"fonts/fnt_titlescreen3/fnt_titlescreen3.yy",},
     {"name":"spr_tempPrimaryFire","order":1,"path":"sprites/spr_tempPrimaryFire/spr_tempPrimaryFire.yy",},
     {"name":"spr_card","order":21,"path":"sprites/spr_card/spr_card.yy",},
