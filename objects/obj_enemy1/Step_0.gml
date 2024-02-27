@@ -11,11 +11,11 @@ other.speed = other.movementSpeed;
 //sprite flip
 if (obj_player.x > x)
 { 
-	image_xscale = 1;
+	image_xscale = abs(image_xscale);
 	
 }
 	else 
 	{
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 	}
 
