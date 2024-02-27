@@ -74,6 +74,7 @@
     {"id":{"name":"spr_deadEnemy1","path":"sprites/spr_deadEnemy1/spr_deadEnemy1.yy",},},
     {"id":{"name":"obj_crate","path":"objects/obj_crate/obj_crate.yy",},},
     {"id":{"name":"rm_titlescreen2","path":"rooms/rm_titlescreen2/rm_titlescreen2.yy",},},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_exp1","path":"objects/obj_exp1/obj_exp1.yy",},},
     {"id":{"name":"obj_title_settings","path":"objects/obj_title_settings/obj_title_settings.yy",},},
     {"id":{"name":"obj_button_fullscreen","path":"objects/obj_button_fullscreen/obj_button_fullscreen.yy",},},
