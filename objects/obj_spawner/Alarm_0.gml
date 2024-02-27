@@ -1,4 +1,9 @@
 /// @description Spawn enemy
+alarm[0] = spawnTick;
+if(instance_exists(obj_upgrade))
+{
+	exit;
+}
 
 var _vx = camera_get_view_x(view_camera[0]);
 var _vy = camera_get_view_y(view_camera[0]);
@@ -24,7 +29,3 @@ instance_create_layer(XX, YY, "Instances", enemyType);
 
 
 
-	
-
-
-alarm[0] = spawnTick;
