@@ -33,8 +33,3 @@ playerLevel = 1
 expMax = 100
 
 
-globalvar selectedCard;
-selectedCard = noone
-
-
-
