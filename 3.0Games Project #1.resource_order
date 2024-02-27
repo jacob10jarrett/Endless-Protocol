@@ -31,6 +31,7 @@
     {"name":"spr_exp3","order":5,"path":"sprites/spr_exp3/spr_exp3.yy",},
     {"name":"obj_crate","order":4,"path":"objects/obj_crate/obj_crate.yy",},
     {"name":"rm_titlescreen2","order":6,"path":"rooms/rm_titlescreen2/rm_titlescreen2.yy",},
+    {"name":"obj_spawner","order":9,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"obj_exp1","order":6,"path":"objects/obj_exp1/obj_exp1.yy",},
     {"name":"obj_title_settings","order":4,"path":"objects/obj_title_settings/obj_title_settings.yy",},
     {"name":"obj_button_fullscreen","order":8,"path":"objects/obj_button_fullscreen/obj_button_fullscreen.yy",},
