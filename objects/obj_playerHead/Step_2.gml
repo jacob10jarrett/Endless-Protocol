@@ -1,5 +1,9 @@
+if(instance_exists(obj_upgrade))
+{
+	exit;
+}
+
 dir = point_direction(x, y, mouse_x, mouse_y);
-dir = (dir + 360) % 360;
 if (mouse_x < x) 
 	{
         image_xscale = -abs(image_xscale);
