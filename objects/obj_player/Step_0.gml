@@ -1,37 +1,54 @@
-
 if(instance_exists(obj_upgrade))
 {
 	image_speed = 0
 	exit;
 }
 
-// Movement inputs
-keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
-keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
-keyUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
-keyDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
-keyDash = keyboard_check_pressed(vk_space); 
+// Movement
+var moveRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
+var moveLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
+var moveUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
+var moveDown = keyboard_check(ord("S")) || keyboard_check(vk_down);
 
-global.playerIsMoving = keyboard_check(ord("D")) || keyboard_check(ord("A")) || keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_up) || keyboard_check(vk_down);
-image_speed = 1
+var targetHSpeed = (moveRight - moveLeft) * maxSpeed;
+var targetVSpeed = (moveDown - moveUp) * maxSpeed;
 
-//player movement
-	//direction
-	_hsp = (keyRight - keyLeft) * mySpeed;
-    _vsp = (keyDown - keyUp) * mySpeed;
-	
-	//Collision
-	if place_meeting(x + _hsp, y, obj_bounds)
-	{
-		_hsp = 0
-	}
-	if place_meeting(x, y + _vsp, obj_bounds)
-	{
-		_vsp = 0
-	}
-	
-	x += _hsp
-	y += _vsp
+
+// Limit how fast the player moves when they turn around 
+// Adjust horizontal speed towards target speed
+if (_hsp < targetHSpeed) {
+    _hsp = min(_hsp + acceleration, targetHSpeed);
+} else if (_hsp > targetHSpeed) {
+    _hsp = max(_hsp - deceleration, targetHSpeed);
+}
+
+// Adjust vertical speed towards target speed
+if (_vsp < targetVSpeed) {
+    _vsp = min(_vsp + acceleration, targetVSpeed);
+} else if (_vsp > targetVSpeed) {
+    _vsp = max(_vsp - deceleration, targetVSpeed);
+}
+
+// Normalize diagonal movement if moving too fast
+var movementMagnitude = sqrt(_hsp * _hsp + _vsp * _vsp);
+if (movementMagnitude > maxSpeed) {
+    var scale = maxSpeed / movementMagnitude;
+    _hsp *= scale;
+    _vsp *= scale;
+}
+
+// Stop immediately if no keys are pressed
+if (!moveRight && !moveLeft) {
+    _hsp = 0;
+}
+if (!moveUp && !moveDown) {
+    _vsp = 0;
+}
+
+// Apply movement
+x += _hsp;
+y += _vsp;
+
 	
 // Player sprite animation stops playing when not moving
 if(_hsp == 0) and (_vsp == 0)
@@ -98,5 +115,3 @@ if (isDashing)
 		dashSpeed = mySpeed * 5
     }
 }
-
-

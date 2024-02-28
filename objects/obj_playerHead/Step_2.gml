@@ -18,24 +18,24 @@ if (mouse_x < x)
 
 dir = (dir + 360) % 360;
 image_angle = dir;
-if (image_angle >= 60 and image_angle <= 90) //60-90 lock at 60
+if (image_angle >= 40 and image_angle <= 110) //60-90 lock at 60
 {
-	image_angle = 60
+	image_angle = 40
 }
 
-if (image_angle >= 270 and image_angle <= 320) //270-320 lock at 320
+if (image_angle >= 250 and image_angle <= 340) //270-320 lock at 320
 {
-	image_angle = 320
+	image_angle = 340
 }
 
-if (image_angle >= 90 and image_angle <= 120) //90-120 lock at 120
+if (image_angle >= 70 and image_angle <= 140) //90-120 lock at 120
 {
-	image_angle = 120
+	image_angle = 130
 }
 
-if (image_angle >= 220 and image_angle <= 270) //220-270 lock at 220
+if (image_angle >= 200 and image_angle <= 290) //220-270 lock at 220
 {
-	image_angle = 220
+	image_angle = 200
 }
 
 x = obj_player.x

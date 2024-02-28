@@ -37,4 +37,7 @@ globalvar selectedCard;
 selectedCard = noone
 
 
+acceleration = 0.5; 
+deceleration = 0.5;
+maxSpeed = 5; 
 
