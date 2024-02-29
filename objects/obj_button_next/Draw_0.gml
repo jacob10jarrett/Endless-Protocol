@@ -2,7 +2,7 @@ if (is_selected) {
     //draw_set_colour(c_gray); // Set the color for the highlight
     //draw_rectangle(x - sprite_width / 1.9, y - sprite_height / 1.9, x + sprite_width / 1.9, y + sprite_height / 1.9, false);
     draw_set_font(fnt_titlescreen2);
-draw_set_colour(c_gray); // Set the font color to be darker when selected
+draw_set_colour(c_maroon); // Set the font color to be darker when selected
 } else {
     draw_set_colour(c_white);
 draw_set_font(fnt_titlescreen);

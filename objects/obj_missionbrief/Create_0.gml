@@ -1,18 +1,21 @@
-mission_texts[0] = "Your mission, should you choose to accept it...";
-mission_texts[1] = "This mission requires your expertise in close combat...";
-mission_texts[2] = "Your task is to infiltrate and restore the facility...";
+// Initialize mission texts
+mission_texts[0] = "Emergency Distress Signal Activation Detected";
+mission_texts[1] = "Transmitting from Sector 49, Coordinates: 35.307169,-80.735726";
 
-full_text = mission_texts[irandom(array_length_1d(mission_texts) -1)];
+full_text = mission_texts[0] + "\n" + mission_texts[1];
 
-display_length = 3; 
+// Select a random mission text
+full_text = mission_texts[irandom(array_length_1d(mission_texts) - 1)];
+
+// Typing animation settings
+display_length = 0; 
 type_speed = 1; 
-type_timer = 10; 
+type_timer = 0; 
 is_typing = true; 
 
+// Pagination settings
+current_page = 0;
+chars_per_page = room_width / 10; // Adjust to fit your room width and desired font size
 
-current_page = 0; 
-chars_per_page = 2; 
-
-with (obj_button_next) {
-    visible = false;
-}
+// Initialize "Next" button visibility
+obj_button_next.visible = false;
