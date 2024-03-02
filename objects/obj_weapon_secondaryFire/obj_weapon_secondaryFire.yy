@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_weapon_primaryFire",
+  "name": "obj_weapon_secondaryFire",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempPrimaryFire",
-    "path": "sprites/spr_tempPrimaryFire/spr_tempPrimaryFire.yy",
+    "name": "spr_tempSecondaryFire",
+    "path": "sprites/spr_tempSecondaryFire/spr_tempSecondaryFire.yy",
   },
   "spriteMaskId": null,
   "visible": true,

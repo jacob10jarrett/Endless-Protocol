@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_bullet.wav",
   "type": 0,
-  "volume": 0.01,
+  "volume": 0.02,
 }
