@@ -1,7 +1,5 @@
-if (window_get_fullscreen()) {
-    window_set_fullscreen(false);
-    button_text = "Fullscreen: Off";
-} else {
-    window_set_fullscreen(true);
-    button_text = "Fullscreen: On";
-}
+// Toggle fullscreen state and update button text
+var newState = !window_get_fullscreen();
+window_set_fullscreen(newState);
+button_text = newState ? "Fullscreen: On" : "Fullscreen: Off";
+

@@ -1,1 +1,1 @@
-button_text = "Next";
+button_text = "Proceed";
