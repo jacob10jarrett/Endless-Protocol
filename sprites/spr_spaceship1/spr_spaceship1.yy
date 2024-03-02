@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite48",
-  "bbox_bottom": 0,
+  "name": "spr_spaceship1",
+  "bbox_bottom": 514,
   "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
+  "bbox_right": 1279,
+  "bbox_top": 144,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fed3c43b-d932-427d-bf9c-2c016d8b8022",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ecfafbc8-ba8f-4904-8667-9b4a1c653551",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 640,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5f225837-d755-4514-b355-226f0c334526","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cec7cfb-0249-4b91-89a1-9ee7ab8b3b50","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite48",
+    "name": "spr_spaceship1",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fed3c43b-d932-427d-bf9c-2c016d8b8022","path":"sprites/Sprite48/Sprite48.yy",},},},"Disabled":false,"id":"199e9163-acfb-499a-a6fa-d2925536e1ba","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ecfafbc8-ba8f-4904-8667-9b4a1c653551","path":"sprites/spr_spaceship1/spr_spaceship1.yy",},},},"Disabled":false,"id":"f2231b1e-01d1-4ecd-8f3d-e558517c5689","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 1280,
 }

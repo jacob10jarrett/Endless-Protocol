@@ -5,8 +5,6 @@ if(instance_exists(obj_upgrade))
     exit;
 }
 
-
-
 // Movement keys check
 var moveRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
 var moveLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
