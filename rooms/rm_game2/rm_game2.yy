@@ -122,7 +122,6 @@
     {"name":"inst_EBB877A","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_41EFDEA4","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_44CF39CB","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_6D89FFC8","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_4517408A","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_62266B71","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_1F7BE291","path":"rooms/rm_game2/rm_game2.yy",},
@@ -144,8 +143,8 @@
     {"name":"inst_6F48DAA7","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_3EAB4D77","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_616D4BB","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_4319572E","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_DBDCDCB","path":"rooms/rm_game2/rm_game2.yy",},
+    {"name":"inst_4A24BD6E","path":"rooms/rm_game2/rm_game2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -220,8 +219,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EBB877A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3872.0,"y":2016.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41EFDEA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4224.0,"y":2432.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44CF39CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_crack","path":"objects/obj_crack/obj_crack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":1536.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D89FFC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_weapon_primary","path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},"properties":[],"rotation":0.0,"scaleX":1.4210526,"scaleY":1.4210526,"x":2591.9998,"y":4096.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4319572E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_weapon_primary","path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":1472.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4517408A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.4210527,"scaleY":1.4210523,"x":3552.0,"y":3200.0,},
@@ -295,6 +292,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F19B75C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"properties":[],"rotation":0.0,"scaleX":7.0,"scaleY":8.333333,"x":5088.0,"y":4064.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_616D4BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_playerHead","path":"objects/obj_playerHead/obj_playerHead.yy",},"properties":[],"rotation":0.0,"scaleX":1.3552631,"scaleY":1.43421,"x":2688.0,"y":3839.9998,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DBDCDCB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5952.0,"y":1664.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A24BD6E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_weapon_primary","path":"objects/obj_weapon_primary/obj_weapon_primary.yy",},"properties":[],"rotation":0.0,"scaleX":1.4210526,"scaleY":1.4210526,"x":3532.9998,"y":3179.9998,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Bodies_Effects","assets":[],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
