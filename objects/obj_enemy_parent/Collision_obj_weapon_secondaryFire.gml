@@ -1,4 +1,4 @@
-instance_create_layer(x, y, "Instances", obj_explosion2)
+instance_create_layer(x, y, "Instances", obj_explosion3)
 enemyHp -= obj_weapon_secondaryFire.damage;
 instance_destroy(other)
 

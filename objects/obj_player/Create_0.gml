@@ -12,13 +12,13 @@ vsp = 0;
 playerDirection = 1
 
 //Weapon fire rate
-alarmtime_0 = 15;
+alarmtime_0 = 20;
 alarmtime_1 = 70;
-alarmtime_2 = 15;
+alarmtime_2 = 20;
 
 alarm[0] = alarmtime_0;
 alarm[1] = alarmtime_1;
-alarm[2] = alarmtime_2;
+alarm[2] = alarmtime_2 + 10; //Secondary fire delayed with primary
 
 //Dash
 dashSpeed = mySpeed * 5;
