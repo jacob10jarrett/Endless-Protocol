@@ -85,6 +85,7 @@
     {"name":"obj_button_credits","order":10,"path":"objects/obj_button_credits/obj_button_credits.yy",},
     {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_enemy1","order":1,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"obj_damageDisplay","order":10,"path":"objects/obj_damageDisplay/obj_damageDisplay.yy",},
     {"name":"spr_background_titlescreen","order":25,"path":"sprites/spr_background_titlescreen/spr_background_titlescreen.yy",},
     {"name":"spr_tempSecondaryFire","order":6,"path":"sprites/spr_tempSecondaryFire/spr_tempSecondaryFire.yy",},
     {"name":"ts_green","order":2,"path":"tilesets/ts_green/ts_green.yy",},
