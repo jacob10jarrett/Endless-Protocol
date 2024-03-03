@@ -104,25 +104,23 @@ if (keyboard_check_pressed(vk_space) && !isDashing && dashTimer >= dashCooldown)
 }
 
 // Handle dashing logic
-if (isDashing) 
-{
+if (isDashing) {
     var _trail = instance_create_layer(x, y, "Instances", obj_dashTrail);
-    _trail.image_xscale = image_xscale;  
-    _trail.image_yscale = image_yscale;  
-    
+    _trail.image_xscale = image_xscale;
+    _trail.image_yscale = image_yscale;
+
     var proposedX = x + (dashSpeed * dashDirection);
 
-    // Check for collisions with bounds during dash
-    if (!place_meeting(proposedX, y, obj_bounds)) 
-    {
+    // Enhanced collision check for dashing towards obj_bounds
+    if (!place_meeting(proposedX, y, obj_bounds)) {
         x = proposedX;
+    } else {
+        isDashing = false; // Stop dashing if a collision would occur
     }
 
     dashSpeed--;
 
-    // Stop dashing once the speed is <= 0
-    if (dashSpeed <= 0) 
-    {
+    if (dashSpeed <= 0) {
         isDashing = false;
     }
 }
