@@ -44,7 +44,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"endlessprotocol.mp4","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -98,6 +100,7 @@
     {"id":{"name":"spr_deadenemy2","path":"sprites/spr_deadenemy2/spr_deadenemy2.yy",},},
     {"id":{"name":"fnt_titlescreen3","path":"fonts/fnt_titlescreen3/fnt_titlescreen3.yy",},},
     {"id":{"name":"spr_tempPrimaryFire","path":"sprites/spr_tempPrimaryFire/spr_tempPrimaryFire.yy",},},
+    {"id":{"name":"rm_openingcutscene","path":"rooms/rm_openingcutscene/rm_openingcutscene.yy",},},
     {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},},
     {"id":{"name":"obj_playerparticle","path":"objects/obj_playerparticle/obj_playerparticle.yy",},},
     {"id":{"name":"obj_slider_parent","path":"objects/obj_slider_parent/obj_slider_parent.yy",},},
@@ -163,6 +166,7 @@
     {"id":{"name":"spr_crack1","path":"sprites/spr_crack1/spr_crack1.yy",},},
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},},
     {"id":{"name":"spr_explosion2","path":"sprites/spr_explosion2/spr_explosion2.yy",},},
+    {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},},
     {"id":{"name":"spr_tile1","path":"sprites/spr_tile1/spr_tile1.yy",},},
     {"id":{"name":"spr_Crate4","path":"sprites/spr_Crate4/spr_Crate4.yy",},},
     {"id":{"name":"rm_missionbrief","path":"rooms/rm_missionbrief/rm_missionbrief.yy",},},
@@ -193,6 +197,7 @@
     {"roomId":{"name":"rm_missionbrief","path":"rooms/rm_missionbrief/rm_missionbrief.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
+    {"roomId":{"name":"rm_openingcutscene","path":"rooms/rm_openingcutscene/rm_openingcutscene.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
