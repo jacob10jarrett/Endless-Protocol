@@ -1,3 +1,4 @@
-startTime = 0;  // The time when the room started
-currentTime = 0;  // The current time of the stopwatch
-running = false;  // Is the stopwatch running?
+totalTime = 20 * 60 * 1000;  
+startTime = 0;  
+currentTime = totalTime;  
+running = false;

@@ -1,4 +1,6 @@
-if (room == rm_game2) {
+if (room == rm_game2 && !running) {
     startTime = current_time;
     running = true;
 }
+
+
