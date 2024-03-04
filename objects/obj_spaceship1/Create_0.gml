@@ -1,15 +1,12 @@
 // Seed the random number generator - consider doing this once at game start instead
 randomize();
 
-// 20% chance for the spaceship to "activate"
-if (random_range(0, 1) < 0.2) {
-    // Initialize speeds
-    distant_speed = 3;
-    mid_speed = 4;
-    near_speed = 5;
 
-    // Initialize global particle system if not already done
-    if (!part_system_exists(global.particleSystem)) {
+    // Initialize speeds
+    distant_speed = 8;
+    mid_speed = 9;
+    near_speed = 10;
+
         global.particleSystem = part_system_create();
         global.smokeParticle = part_type_create();
         part_type_shape(global.smokeParticle, pt_shape_smoke);
@@ -21,9 +18,3 @@ if (random_range(0, 1) < 0.2) {
         part_type_color3(global.smokeParticle, c_orange, c_white, c_white);
         part_type_alpha2(global.smokeParticle, 1, 0);
         part_system_layer(global.particleSystem, "Instances_2");
-    }
-
-} else {
-    // If the spaceship doesn't "activate", destroy it immediately
-    instance_destroy();
-}

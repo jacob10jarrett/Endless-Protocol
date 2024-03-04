@@ -9,8 +9,8 @@ if (instance_exists(id)) {
     } else {
         // Emit smoke particles to the right of the spaceship
         if (part_system_exists(global.particleSystem)) {
-            var smoke_x = x + sprite_get_width(sprite_index)-1250; 
-            var smoke_y = y + sprite_get_height(sprite_index)-630;
+            var smoke_x = x + sprite_get_width(sprite_index)-1190; 
+            var smoke_y = y + sprite_get_height(sprite_index)-613.5;
             part_particles_create(global.particleSystem, smoke_x, smoke_y, global.smokeParticle, 1);
         }
     }
