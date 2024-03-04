@@ -1,31 +1,34 @@
 if(instance_exists(obj_upgrade))
 {
-	image_speed = 0
-	speed = 0
-	exit;
+    image_speed = 0;
+    speed = 0;
+    exit;
 }
-image_speed = 1
-direction = point_direction(x, y, obj_player.x, obj_player.y);
-other.speed = other.movementSpeed;
 
-//sprite flip
+// Default animation and movement towards the player
+image_speed = 1;
+direction = point_direction(x, y, obj_player.x, obj_player.y);
+speed = movementSpeed;
+
+// Sprite flipping based on player position
 if (obj_player.x > x)
 { 
-	image_xscale = abs(image_xscale);
-	
-} else {
-	image_xscale = -abs(image_xscale);
+    image_xscale = abs(image_xscale);
+} 
+else 
+{
+    image_xscale = -abs(image_xscale);
 }
 
+// Calculate distance to the player
 var distanceToPlayer = point_distance(x, y, obj_player.x, obj_player.y);
 
+// Check distance and start countdown if close enough
 if (distanceToPlayer <= 50 && !hasStartedCountdown) {
-    // Start the countdown
     hasStartedCountdown = true;
-    detonationTimer = room_speed * .00002;
+    detonationTimer = room_speed * .000002; 
 }
 
-// Handle the countdown
 // Handle the countdown
 if (hasStartedCountdown) {
     if (detonationTimer > 0) {
@@ -61,9 +64,8 @@ if (hasStartedCountdown) {
 		part_particles_create(pSystem, x, y, pGlow, 10); // Create the glow first so it's behind
 		part_particles_create(pSystem, x, y, pSmoke, 10);
 
-        // The problematic line is removed or corrected
+        
 
-        // Damage obj_player
         obj_player.currentHealth -= 33.34;
 
         // Destroy the enemy object to simulate the "detonation"

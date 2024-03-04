@@ -35,11 +35,25 @@ if (_hsp < targetHSpeed) {
     _hsp = max(_hsp - deceleration, targetHSpeed);
 }
 
+if (place_meeting(x + _hsp, y, obj_bounds) || place_meeting(x + _hsp, y, obj_boundsCorner)) {
+    while (!place_meeting(x + sign(_hsp), y, obj_bounds) && !place_meeting(x + sign(_hsp), y, obj_boundsCorner)) {
+        x += sign(_hsp);
+    }
+    _hsp = 0;
+}
+
 // Adjust vertical speed towards target speed
 if (_vsp < targetVSpeed) {
     _vsp = min(_vsp + acceleration, targetVSpeed);
 } else if (_vsp > targetVSpeed) {
     _vsp = max(_vsp - deceleration, targetVSpeed);
+}
+
+if (place_meeting(x, y + _vsp, obj_bounds) || place_meeting(x, y + _vsp, obj_boundsCorner)) {
+    while (!place_meeting(x, y + sign(_vsp), obj_bounds) && !place_meeting(x, y + sign(_vsp), obj_boundsCorner)) {
+        y += sign(_vsp);
+    }
+    _vsp = 0;
 }
 
 // Normalize diagonal movement if moving too fast
