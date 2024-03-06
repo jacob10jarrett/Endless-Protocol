@@ -1,1 +1,1 @@
-button_text = "Skip";
+button_text = "";

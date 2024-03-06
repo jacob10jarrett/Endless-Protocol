@@ -34,16 +34,6 @@ if (showing_dialog == true) {
     draw_set_color(c_white);
     draw_text_ext(text_x, text_y, current_dialog.message, 16, display_get_gui_width() - 192);
     
-    // If choices are available, display them
-    if (current_dialog.choices != undefined) {
-        var choice_y = text_y + height + 10; // Adjust y position for choices
-        for (var i = 0; i < array_length(current_dialog.choices); i++) {
-            var choice = current_dialog.choices[i];
-            // Here you would highlight the selected choice based on some selection index (not shown)
-            draw_text(text_x, choice_y + (i * 20), choice.text);
-        }
-    }
-    
     alpha = lerp(alpha, 1, 0.06);
     draw_set_alpha(1);
 }

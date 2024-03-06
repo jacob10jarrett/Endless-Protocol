@@ -1,13 +1,5 @@
 var mx = mouse_x;
 var my = mouse_y;
-
-
-//if (global.allDialoguesExhausted) {
-  //  instance_destroy(); 
-//} else {
- //   visible = true; 
-//}
-
 if (point_in_rectangle(mx, my, bbox_left, bbox_top, bbox_right, bbox_bottom)) {
    
     global.selected_button = id; 

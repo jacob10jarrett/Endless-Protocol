@@ -1,27 +1,35 @@
 // Inherit the parent event
 event_inherited();
 
-global.button_next_pressed = false;
+//global.button_next_pressed = false;
 
-function dialog_add_and_check(sprite, message) {
-    // Check if the message is the end marker
-    if (message == "N/A") {
-        global.allDialoguesExhausted = true;
-    }
-    
+// Define the dialog_add_and_check function
+function dialog_add_and_check(sprite, message) {   
     // Call the original dialog.add function
     dialog.add(sprite, message);
 }
 
-
-dialog_add_and_check(spr_character_blue, "Agent, do you copy?");
-//Loud and clear. I'm at the entrance of the facility.
-dialog_add_and_check(spr_character_blue, "Listen carefully. The facility's core has been unstable since the breach.");
-dialog_add_and_check(spr_character_blue, "We need you to initiate the restoration sequence, but it's not going to be easy.");
-//I understand the risks.
-dialog_add_and_check(spr_character_blue, "Once you're in, you'll have twenty minutes to restore power and reboot the system.");
+// Add dialogues
+dialog_add_and_check(spr_character_blue, "Agent, you've been assigned a critical mission.");
+dialog_add_and_check(spr_character_blue, "An experiment has gone wrong, leaving the facility's core unstable since the breach.");
+dialog_add_and_check(spr_character_blue, "You need to initiate the restoration sequence to stabilize the core.");
+dialog_add_and_check(spr_character_blue, "But be warned, once you've started the protocol, the challenge will escalate significantly.");
+dialog_add_and_check(spr_character_blue, "You'll have twenty minutes to restore power and reboot the system's mainframe.");
 dialog_add_and_check(spr_character_blue, "Any longer and the core will go critical.");
-//Twenty minutes... Got it.
-dialog_add_and_check(spr_character_blue, "N/A");
+dialog_add_and_check(spr_character_blue, "The experiment's failure may have created anomalies in the fabric of space itself.");
+dialog_add_and_check(spr_character_blue, "You must understand, once you go in, you may never come back out");
+dialog_add_and_check(spr_character_blue, "We're all counting on you. Good luck.");
 
-//Copy that. Heading in. See you on the other side.
+
+//global.allDialoguesExhausted = true; 
+
+// Assuming this code is in an appropriate place where x and y are defined, such as in an object's Create event
+//if (global.allDialoguesExhausted) {
+   // if (instance_exists(obj_button_dialogue_next)) {
+     //   instance_destroy(obj_button_dialogue_next);
+   // }
+
+    //if (!instance_exists(obj_button_dialogue_start)) {
+    //    instance_create_layer(x, y, "Instances_5", obj_button_dialogue_start);
+    //}
+//}
