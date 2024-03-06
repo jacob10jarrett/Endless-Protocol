@@ -1,4 +1,4 @@
-text = "Emergency Distress Signal Activation Detected";
+text = "Incoming  message  from control";
 
 display_length = 0;
 is_typing = true;

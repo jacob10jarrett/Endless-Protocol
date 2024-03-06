@@ -1,5 +1,5 @@
 // Initialize mission texts
-mission_texts[0] = "Emergency Distress Signal Activation Detected";
+mission_texts[0] = "Incoming message from control";
 mission_texts[1] = "Transmitting from Sector 49, Coordinates: 35.307169,-80.735726";
 
 full_text = mission_texts[0] + "\n" + mission_texts[1];

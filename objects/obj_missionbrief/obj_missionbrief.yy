@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UIscreens",
-    "path": "folders/Objects/UIscreens.yy",
+    "name": "Dialogue",
+    "path": "folders/Objects/Dialogue.yy",
   },
   "parentObjectId": null,
   "persistent": false,
