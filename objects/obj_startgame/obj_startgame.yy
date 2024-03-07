@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_startgame",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {

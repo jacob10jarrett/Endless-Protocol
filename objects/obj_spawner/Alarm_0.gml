@@ -15,6 +15,8 @@ instance_activate_region(_vx - 10, _vy - 10, _vw + 10, _vh + 20, 1);
 instance_activate_object(obj_stopwatch);
 instance_activate_object(obj_dashUI);
 instance_activate_object(obj_game);
+instance_activate_object(obj_displayMessage);
+instance_activate_object(obj_stopwatch);
 
 
 var dir = irandom_range(0, 360);

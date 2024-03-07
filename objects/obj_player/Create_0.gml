@@ -1,3 +1,16 @@
+//Player randomly spawns in predetermined locations
+var spawnPoints[4];
+spawnPoints[0] = [4384, 2400]; 
+spawnPoints[1] = [8128, 9312];
+spawnPoints[2] = [18912, 4896];
+spawnPoints[3] = [15776, 480];
+
+var index = irandom(3);
+
+x = spawnPoints[index][0];
+y = spawnPoints[index][1];
+
+
 maxHealth = 100;  
 currentHealth = 100;  
 
@@ -10,6 +23,11 @@ mySpeed = 4;
 hsp = 0;
 vsp = 0;
 playerDirection = 1
+
+//Set brief delay before player can move
+moveDelay = 1.2 * room_speed;
+alarm[3] = moveDelay;
+canMove = false;
 
 //Weapon fire rate
 alarmtime_0 = 20;

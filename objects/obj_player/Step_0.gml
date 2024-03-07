@@ -6,6 +6,8 @@ if(instance_exists(obj_upgrade))
 }
 
 // Movement keys check
+if(canMove)
+{
 var moveRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
 var moveLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 var moveUp = keyboard_check(ord("W")) || keyboard_check(vk_up);
@@ -75,6 +77,11 @@ if (!moveUp && !moveDown) {
 // Apply movement
 x += _hsp;
 y += _vsp;
+
+} else {
+	_hsp = 0;
+    _vsp = 0;
+}
 
 global.playerIsMoving = (_hsp != 0 || _vsp != 0);
 
