@@ -5,6 +5,16 @@ if(instance_exists(obj_upgrade))
     exit;
 }
 
+if (instance_exists(obj_pathfinding) && !hasPath) {
+    // Request a new path to the player
+    targetNode = obj_pathfinding.requestPath(x, y, obj_player.x, obj_player.y);
+    hasPath = true;
+}
+
+if (hasPath) {
+    moveToNextNode(); // This is a placeholder for logic to move to the next node in the path
+}
+
 // Default animation and movement towards the player
 image_speed = 1;
 direction = point_direction(x, y, obj_player.x, obj_player.y);
