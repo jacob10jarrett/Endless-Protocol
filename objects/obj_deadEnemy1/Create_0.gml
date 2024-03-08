@@ -8,3 +8,5 @@ if (direction >= 90 && direction <= 270)
 alarm[0] = 150
 
 image_speed = 1/2;
+
+depth = 550;

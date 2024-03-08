@@ -1,6 +1,6 @@
-if (room == rm_game2 && !running) {
-    startTime = current_time;
-    running = true;
-}
+//if (room == rm_game2 && !running) {
+  //  startTime = current_time;
+  //  running = true;
+//}
 
 

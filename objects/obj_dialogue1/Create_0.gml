@@ -14,11 +14,10 @@ dialog_add_and_check(spr_character_blue, "Agent, you've been assigned a critical
 dialog_add_and_check(spr_character_blue, "An experiment has gone wrong, leaving the facility's core unstable since the breach.");
 dialog_add_and_check(spr_character_blue, "You need to initiate the restoration sequence to stabilize the core.");
 dialog_add_and_check(spr_character_blue, "But be warned, once you've started the protocol, the challenge will escalate significantly.");
-dialog_add_and_check(spr_character_blue, "You'll have twenty minutes to restore power and reboot the system's mainframe.");
-dialog_add_and_check(spr_character_blue, "Any longer and the core will go critical.");
-dialog_add_and_check(spr_character_blue, "The experiment's failure may have created anomalies in the fabric of space itself.");
-dialog_add_and_check(spr_character_blue, "You must understand, once you go in, you may never come back out");
-dialog_add_and_check(spr_character_blue, "We're all counting on you. Good luck.");
+dialog_add_and_check(spr_character_blue, "You'll have to survive twenty minutes in order to reboot the system's mainframe.");
+dialog_add_and_check(spr_character_blue, "However, the experiment's failure may have created anomalies in the fabric of space itself.");
+dialog_add_and_check(spr_character_blue, "Once you enter, the path behind you may disappear. There's a chance you won't be able to return.");
+dialog_add_and_check(spr_character_blue, "We're all counting on you. Good luck, Agent.");
 
 
 //global.allDialoguesExhausted = true; 
