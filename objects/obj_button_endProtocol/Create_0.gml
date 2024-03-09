@@ -1,3 +1,3 @@
-button_text = "End  Protocol";
+button_text = "Quit Game";
 
 

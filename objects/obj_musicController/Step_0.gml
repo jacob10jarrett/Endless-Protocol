@@ -7,12 +7,14 @@ if (!global.initialized) {
 if (global.currentSongIndex == -1 || !audio_is_playing(global.currentSoundInstance)) {
     global.currentSongIndex++;
 
+    // Check if we've reached the end of the playlist
     if (global.currentSongIndex >= ds_list_size(global.playlist)) {
-        shuffle_playlist(); // Ensure this properly shuffles your playlist
-        global.currentSongIndex = 0;
+        global.shuffle_playlist(); // Reshuffle the playlist
+        global.currentSongIndex = 0; // Reset the song index to the start of the playlist
     }
 
-    var nextSong = global.soundtrack[global.playlist[| global.currentSongIndex]];
+    var nextSongIndex = ds_list_find_value(global.playlist, global.currentSongIndex); // Correctly get the next song index from the playlist
+    var nextSong = global.soundtrack[nextSongIndex]; // Access the next song using the retrieved index
     global.currentSoundInstance = audio_play_sound(nextSong, global.sliderValue, false);
 }
 
@@ -21,7 +23,7 @@ if (audio_is_playing(global.currentSoundInstance)) {
     audio_sound_gain(global.currentSoundInstance, global.sliderValue, 0); // Immediate volume adjustment
 }
 
-// Consider adding a condition to check if the volume adjustment is desired before stopping the sound
+// Stop the sound if the volume slider is at 0
 if (global.sliderValue <= 0 && audio_sound_get_gain(global.currentSoundInstance) <= 0) {
     audio_stop_sound(global.currentSoundInstance);
 }

@@ -1,7 +1,7 @@
 //Player randomly spawns in predetermined locations
 var spawnPoints[4];
 spawnPoints[0] = [4384, 2400]; 
-spawnPoints[1] = [8128, 9312];
+spawnPoints[1] = [4832, 6048];
 spawnPoints[2] = [18912, 4896];
 spawnPoints[3] = [15776, 480];
 

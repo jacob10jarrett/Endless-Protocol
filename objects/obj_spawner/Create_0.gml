@@ -1,7 +1,7 @@
 alarm[0] = 30;
 depth = 550;
 
-var spawnRange = 3000; 
+var spawnRange = 9000; 
 var minDistanceFromPlayer = 2200; // Prevent spawning too close to the player
 
 // Generate a potential spawn position
