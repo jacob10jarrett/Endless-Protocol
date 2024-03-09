@@ -1,0 +1,1 @@
+draw_path(path, x, y, 0);
