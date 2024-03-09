@@ -1,14 +1,32 @@
-if(instance_exists(obj_upgrade))
-{
+// Skip movement if an upgrade is present
+if (instance_exists(obj_upgrade)) {
     image_speed = 0;
     speed = 0;
-    exit;
+    return;
 }
 
-// Default animation and movement towards the player
-image_speed = 1;
+// Calculate direction towards the player every step to dynamically adjust movement
 direction = point_direction(x, y, obj_player.x, obj_player.y);
-speed = movementSpeed;
+
+// Calculate the movement vector based on direction and movementSpeed
+var _dx = lengthdir_x(movementSpeed, direction);
+var _dy = lengthdir_y(movementSpeed, direction);
+_hsp = _dx;
+_vsp = _dy;
+
+// Attempt to move towards the player with collision checking
+if (!place_meeting(x + _hsp, y + _vsp, obj_bounds) && !place_meeting(x + _hsp, y + _vsp, obj_boundsCorner)) {
+    // If no collision, move normally
+    x += _hsp;
+    y += _vsp;
+} else {
+    // If collision is detected, try to find a new path around the obstacle
+    if (mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, false)) {
+        // If a path is found, start following it
+        path_start(path, 2, path_action_stop, false);
+    }
+}
+
 
 // Sprite flipping based on player position
 if (obj_player.x > x)
