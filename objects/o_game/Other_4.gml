@@ -1,14 +1,18 @@
-//set grid size
-#macro TS 16
+// Set grid size
+#macro TILE_SIZE 16
 
-//get tiles in room
-var _w = ceil(room_width / TS);
-var _h = ceil(room_height / TS);
+// Calculate the number of tiles in the room
+var grid_width = ceil(room_width / TILE_SIZE);
+var grid_height = ceil(room_height / TILE_SIZE);
 
-//create motion planning grid
-global.mp_grid = mp_grid_create(0, 0, _w, _h, TS, TS);
+// Initialize or update the motion planning grid
+if (is_undefined(global.mp_grid) || global.mp_grid == 0) {
+    global.mp_grid = mp_grid_create(0, 0, grid_width, grid_height, TILE_SIZE, TILE_SIZE);
+} else {
+    mp_grid_clear_all(global.mp_grid);
+}
 
+// Add obstacles to the grid, adjust the precise parameter as needed for your game's physics
+mp_grid_add_instances(global.mp_grid, obj_bounds, false);
+mp_grid_add_instances(global.mp_grid, obj_boundsCorner, true); // Assuming true is needed for precise collision
 
-//add 
-mp_grid_add_instances(global.mp_grid, obj_bounds,false);
-mp_grid_add_instances(global.mp_grid, obj_boundsCorner,false);

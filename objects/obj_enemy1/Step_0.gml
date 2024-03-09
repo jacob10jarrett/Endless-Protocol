@@ -1,42 +1,40 @@
 // Skip movement if an upgrade is present
 if (instance_exists(obj_upgrade)) {
     image_speed = 0;
-    speed = 0;
     return;
 }
 
-// Calculate direction towards the player every step to dynamically adjust movement
+// Calculate direction towards the player every step
 direction = point_direction(x, y, obj_player.x, obj_player.y);
 
 // Calculate the movement vector based on direction and movementSpeed
-var _dx = lengthdir_x(movementSpeed, direction);
-var _dy = lengthdir_y(movementSpeed, direction);
-_hsp = _dx;
-_vsp = _dy;
+var _hsp = lengthdir_x(movementSpeed, direction);
+var _vsp = lengthdir_y(movementSpeed, direction);
 
-// Attempt to move towards the player with collision checking
-if (!place_meeting(x + _hsp, y + _vsp, obj_bounds) && !place_meeting(x + _hsp, y + _vsp, obj_boundsCorner)) {
-    // If no collision, move normally
-    x += _hsp;
-    y += _vsp;
+// Check for collision in the direction of movement before actual movement
+if (!place_meeting(x + _hsp, y, obj_bounds) && !place_meeting(x + _hsp, y, obj_boundsCorner)) {
+    x += _hsp; // Move horizontally if no collision
 } else {
-    // If collision is detected, try to find a new path around the obstacle
-    if (mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, false)) {
-        // If a path is found, start following it
-        path_start(path, 2, path_action_stop, false);
+    _hsp = 0; // Stop horizontal movement on collision
+}
+
+if (!place_meeting(x, y + _vsp, obj_bounds) && !place_meeting(x, y + _vsp, obj_boundsCorner)) {
+    y += _vsp; // Move vertically if no collision
+} else {
+    _vsp = 0; // Stop vertical movement on collision
+}
+
+// If movement is blocked, try to find a new path
+if (_hsp == 0 && _vsp == 0) {
+    if (!path_exists(path) || path_position == 1) {
+        if (mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, false)) {
+            path_start(path, 2, path_action_stop, false);
+        }
     }
 }
 
-
 // Sprite flipping based on player position
-if (obj_player.x > x)
-{ 
-    image_xscale = abs(image_xscale);
-} 
-else 
-{
-    image_xscale = -abs(image_xscale);
-}
+image_xscale = (obj_player.x > x) ? 1 : -1;
 
 // Calculate distance to the player
 var distanceToPlayer = point_distance(x, y, obj_player.x, obj_player.y);

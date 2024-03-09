@@ -1,12 +1,24 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function check_for_player(){
-	var _dis = distance_to_object(obj_player);
-	//move_towards_point(obj_player.x, obj_player.y, 1);
-	var _found_player = mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, choose(0, 1));
-	
-	//start path
-	if _found_player{
-		path_start(path, 2, path_action_stop, false)
-	}
+function check_for_player() {
+    // Define the maximum distance to check for the player
+    var max_distance = 2000; // Example distance, adjust as needed
+    var movementSpeed = 2; // Adjustable movement speed
+	var some_threshold_for_recalculation = 60;
+
+    // Calculate distance to the player
+    var distance_to_player = point_distance(x, y, obj_player.x, obj_player.y);
+
+    // Only attempt pathfinding if within max_distance
+    if (distance_to_player <= max_distance) {
+        // Check if the entity is already following a path or needs to recalculate
+        if (!path_exists(path) || path_position == 1 || distance_to_player > some_threshold_for_recalculation) {
+            // Attempt to find a new path towards the player, allowing for diagonal movement randomly
+            var allowDiagonal = choose(true, false); // Randomly allow diagonal movement
+            var foundPath = mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, allowDiagonal);
+        
+            // If a path is found, start following it
+            if (foundPath) {
+                path_start(path, movementSpeed, path_action_stop, false);
+            }
+        }
+    }
 }
