@@ -24,3 +24,7 @@ if (place_meeting(x, y, obj_bounds)){
 	instance_destroy();
 
 }
+
+if (place_meeting(x, y, obj_boundsCorner)){
+	instance_destroy();
+}
