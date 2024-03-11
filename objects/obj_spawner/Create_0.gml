@@ -2,7 +2,7 @@ alarm[0] = 30;
 depth = 550;
 
 var spawnRange = 9000; 
-var minDistanceFromPlayer = 2200; // Prevent spawning too close to the player
+var minDistanceFromPlayer = 3000; // Prevent spawning too close to the player
 
 // Generate a potential spawn position
 var dir = irandom_range(0, 360);

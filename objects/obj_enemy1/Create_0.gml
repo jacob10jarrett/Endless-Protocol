@@ -3,6 +3,6 @@ event_inherited();
 detonationTimer = 0; 
 hasStartedCountdown = false;
 
-_hsp = 0;
-_vsp = 0;
+var _hsp = 0; 
+var _vsp = 0;
 

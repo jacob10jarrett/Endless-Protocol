@@ -1,38 +1,72 @@
+// Check if the upgrade object exists, stopping the animation if it does.
 if (instance_exists(obj_upgrade)) {
     image_speed = 0;
     return;
 }
 
-// Calculate direction towards the player every step
-direction = point_direction(x, y, obj_player.x, obj_player.y);
+// Variables for movement calculation
+var _hsp = 0;
+var _vsp = 0;
+var clearPath = !collision_line(x, y, obj_player.x, obj_player.y, obj_bounds, true, false) && !collision_line(x, y, obj_player.x, obj_player.y, obj_boundsCorner, true, false);
+var tooCloseToBoundary = (distance_to_object(obj_bounds) < 50 || distance_to_object(obj_boundsCorner) < 50);
 
-// Calculate the movement vector based on direction and movementSpeed
-var _hsp = lengthdir_x(movementSpeed, direction);
-var _vsp = lengthdir_y(movementSpeed, direction);
+if (clearPath && !tooCloseToBoundary) {
+    // Direct movement logic towards the player, as the path is clear and safe
 
-// Check for collision in the direction of movement before actual movement
-if (!place_meeting(x + _hsp, y, obj_bounds) && !place_meeting(x + _hsp, y, obj_boundsCorner)) {
-    x += _hsp; // Move horizontally if no collision
+    // Calculate the direction towards the player
+    direction = point_direction(x, y, obj_player.x, obj_player.y);
+    var _hsp = lengthdir_x(movementSpeed, direction);
+    var _vsp = lengthdir_y(movementSpeed, direction);
+
+    // Attempt horizontal and vertical movement if no collision is detected
+    if (!place_meeting(x + _hsp, y, obj_bounds) && !place_meeting(x + _hsp, y, obj_boundsCorner)) {
+        x += _hsp;
+    } else {
+        _hsp = 0; // Halt horizontal movement on collision
+    }
+
+    if (!place_meeting(x, y + _vsp, obj_bounds) && !place_meeting(x, y + _vsp, obj_boundsCorner)) {
+        y += _vsp;
+    } else {
+        _vsp = 0; // Halt vertical movement on collision
+    }
 } else {
-    _hsp = 0; // Stop horizontal movement on collision
-}
+    // Movement logic when the path is blocked
+    // Calculate the direction towards the player
+    var directionToPlayer = point_direction(x, y, obj_player.x, obj_player.y);
 
-if (!place_meeting(x, y + _vsp, obj_bounds) && !place_meeting(x, y + _vsp, obj_boundsCorner)) {
-    y += _vsp; // Move vertically if no collision
-} else {
-    _vsp = 0; // Stop vertical movement on collision
-}
+    // Prioritize movement based on greater distance (horizontal or vertical)
+    var _vDistance = abs(obj_player.y - y);
+    var _hDistance = abs(obj_player.x - x);
 
-// If movement is blocked, try to find a new path
-if (_hsp == 0 && _vsp == 0) {
-    if (!path_exists(path) || path_position == 1) {
-        if (mp_grid_path(global.mp_grid, path, x, y, obj_player.x, obj_player.y, false)) {
-            path_start(path, 2, path_action_stop, false);
+    if (_vDistance > _hDistance) {
+        // Vertical movement prioritization
+        _vsp = (obj_player.y > y) ? movementSpeed : -movementSpeed;
+        if (!place_meeting(x, y + _vsp, obj_bounds)) {
+            y += _vsp;
+        } else {
+            // If vertical movement is blocked, attempt horizontal movement
+            _hsp = (obj_player.x > x) ? movementSpeed : -movementSpeed;
+            if (!place_meeting(x + _hsp, y, obj_bounds)) {
+                x += _hsp;
+            }
+        }
+    } else {
+        // Horizontal movement prioritization
+        _hsp = (obj_player.x > x) ? movementSpeed : -movementSpeed;
+        if (!place_meeting(x + _hsp, y, obj_bounds)) {
+            x += _hsp;
+        } else {
+            // If horizontal movement is blocked, attempt vertical movement
+            _vsp = (obj_player.y > y) ? movementSpeed : -movementSpeed;
+            if (!place_meeting(x, y + _vsp, obj_bounds)) {
+                y += _vsp;
+            }
         }
     }
 }
 
-// Sprite flipping based on player position
+// Adjust sprite orientation based on the player's position
 image_xscale = (obj_player.x > x) ? 1 : -1;
 
 // Calculate distance to the player
