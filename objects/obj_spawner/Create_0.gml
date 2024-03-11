@@ -9,8 +9,8 @@ var dir = irandom_range(0, 360);
 var XX = obj_player.x + lengthdir_x(spawnRange, dir);
 var YY = obj_player.y + lengthdir_y(spawnRange, dir);
 
-spawnTickInitial = 120; // Initial spawn tick
-spawnTickMin = 30; // Minimum spawn tick after scaling
+spawnTickInitial = 20; // Initial spawn tick
+spawnTickMin = 5; // Minimum spawn tick after scaling
 gameDuration = 20 * 60 * room_speed; // 20 minutes * 60 seconds * room speed
 timeElapsed = 0; // Keep track of time elapsed
 timeElapsed += 1;
