@@ -43,6 +43,7 @@ dashSpeed = mySpeed * 5;
 dashCooldown = 360;
 dashTimer = 0; 
 isDashing = false;
+canDash = false
 
 globalvar playerExp;
 globalvar playerLevel;
@@ -60,4 +61,17 @@ selectedCard = noone
 acceleration = 0.5; 
 deceleration = 0.5;
 maxSpeed = 5; 
+
+
+cardArray = ds_list_create()
+ds_list_add(cardArray, obj_arrowCard)
+ds_list_add(cardArray, obj_bladeCard)
+ds_list_add(cardArray, obj_bombCard)
+ds_list_add(cardArray, obj_dashCard)
+ds_list_add(cardArray, obj_movespeedCard)
+ds_list_add(cardArray, obj_primaryCard)
+ds_list_add(cardArray, obj_secondaryCard)
+
+canBomb = false
+
 

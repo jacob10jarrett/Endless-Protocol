@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempPrimaryFire",
-    "path": "sprites/spr_tempPrimaryFire/spr_tempPrimaryFire.yy",
+    "name": "spr_PrimaryFire",
+    "path": "sprites/spr_PrimaryFire/spr_PrimaryFire.yy",
   },
   "spriteMaskId": null,
   "visible": true,

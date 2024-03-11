@@ -15,12 +15,20 @@ if (playerExp >= expMax)
 	var _vy = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/2)
 	
 	
-	var upgrade = instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_upgrade)
-	
-	var cardOne = instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_card1)
-		
-	var cardTwo = instance_create_layer(obj_player.x - 400, obj_player.y, "UpgradeCards", obj_card2)
-	
-	var cardThree = instance_create_layer(obj_player.x + 400, obj_player.y, "UpgradeCards", obj_card3)
+	// Generate random indices
+	var random_index_one = irandom(ds_list_size(cardArray) - 1);
+	var random_index_two = irandom(ds_list_size(cardArray) - 1);
+	var random_index_three = irandom(ds_list_size(cardArray) - 1);
+
+	// Retrieve objects from the cardArray using the random indices
+	var cardOneObject = ds_list_find_value(cardArray, random_index_one);
+	var cardTwoObject = ds_list_find_value(cardArray, random_index_two);
+	var cardThreeObject = ds_list_find_value(cardArray, random_index_three);
+
+	// Create instances using the retrieved objects
+	instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", obj_upgrade);
+	var cardOne = instance_create_layer(obj_player.x, obj_player.y, "UpgradeCards", cardOneObject);
+	var cardTwo = instance_create_layer(obj_player.x - 400, obj_player.y, "UpgradeCards", cardTwoObject);
+	var cardThree = instance_create_layer(obj_player.x + 400, obj_player.y, "UpgradeCards", cardThreeObject);
 }
 

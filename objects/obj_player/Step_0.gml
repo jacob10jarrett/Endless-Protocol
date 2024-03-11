@@ -111,7 +111,7 @@ if (dashDirection == 0) {
 }
 
 // Increase dash timer until it reaches the dash cooldown
-if (dashTimer < dashCooldown && !isDashing) 
+if (dashTimer < dashCooldown && !isDashing && canDash) 
 {
     dashTimer++;
 }

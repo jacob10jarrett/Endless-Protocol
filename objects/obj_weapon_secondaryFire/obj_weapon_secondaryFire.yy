@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempSecondaryFire",
-    "path": "sprites/spr_tempSecondaryFire/spr_tempSecondaryFire.yy",
+    "name": "spr_SecondaryFire",
+    "path": "sprites/spr_SecondaryFire/spr_SecondaryFire.yy",
   },
   "spriteMaskId": null,
   "visible": true,

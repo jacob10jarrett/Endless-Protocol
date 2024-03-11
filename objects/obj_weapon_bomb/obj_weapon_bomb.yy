@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempBomb",
-    "path": "sprites/spr_tempBomb/spr_tempBomb.yy",
+    "name": "spr_Bomb",
+    "path": "sprites/spr_Bomb/spr_Bomb.yy",
   },
   "spriteMaskId": null,
   "visible": true,
