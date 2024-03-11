@@ -1,7 +1,7 @@
 alarm[0] = 30;
 
 var spawnRange = 3000; 
-var minDistanceFromPlayer = 1950; // Prevent spawning too close to the player
+var minDistanceFromPlayer = 1500; // Prevent spawning too close to the player
 
 // Generate a potential spawn position
 var dir = irandom_range(0, 360);
@@ -21,3 +21,8 @@ spawnTick = lerp(spawnTickInitial, spawnTickMin, progress);
 
 // Reset the alarm based on the scaled spawnTick
 alarm[0] = spawnTick;
+
+if (place_meeting(x, y, obj_bounds)){
+	instance_destroy();
+
+}
