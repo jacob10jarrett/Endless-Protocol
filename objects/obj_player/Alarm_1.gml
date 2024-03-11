@@ -1,4 +1,4 @@
-
+//Bomb
 event_user(1)
 
 //loop

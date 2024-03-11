@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_exp1","path":"objects/obj_exp1/obj_exp1.yy",},"propertyId":{"name":"expValue","path":"objects/obj_exp1/obj_exp1.yy",},"value":"15",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_exp1","path":"objects/obj_exp1/obj_exp1.yy",},"propertyId":{"name":"expValue","path":"objects/obj_exp1/obj_exp1.yy",},"value":"200",},
   ],
   "parent": {
     "name": "EnemySystem",

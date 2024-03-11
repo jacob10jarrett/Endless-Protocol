@@ -20,6 +20,17 @@ if (playerExp >= expMax)
 	var random_index_two = irandom(ds_list_size(cardArray) - 1);
 	var random_index_three = irandom(ds_list_size(cardArray) - 1);
 
+	while (random_index_two == random_index_one) 
+	{
+		random_index_two = irandom(ds_list_size(cardArray) - 1);
+	}
+
+	// Ensure that random_index_three is different from random_index_one and random_index_two
+	while (random_index_three == random_index_one || random_index_three == random_index_two) 
+	{
+		random_index_three = irandom(ds_list_size(cardArray) - 1);
+	}
+
 	// Retrieve objects from the cardArray using the random indices
 	var cardOneObject = ds_list_find_value(cardArray, random_index_one);
 	var cardTwoObject = ds_list_find_value(cardArray, random_index_two);

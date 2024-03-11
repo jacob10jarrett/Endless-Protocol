@@ -1,3 +1,4 @@
+//Primary Fire
 event_user(0)
 
 //loop

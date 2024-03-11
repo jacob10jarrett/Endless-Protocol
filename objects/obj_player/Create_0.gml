@@ -26,17 +26,23 @@ playerDirection = 1
 
 //Set brief delay before player can move
 moveDelay = 1.2 * room_speed;
-alarm[3] = moveDelay;
+alarm[10] = moveDelay;
 canMove = false;
 
 //Weapon fire rate
 alarmtime_0 = 20;
 alarmtime_1 = 360;
 alarmtime_2 = 20;
+alarmtime_3 = 300;
+alarmtime_4 = 20;
+alarmtime_5 = 20;
 
 alarm[0] = alarmtime_0;
 alarm[1] = alarmtime_1;
 alarm[2] = alarmtime_2 +1; //Secondary fire delayed with primary
+alarm[3] = alarmtime_3;
+alarm[4] = alarmtime_4;
+alarm[5] = alarmtime_5
 
 //Dash
 dashSpeed = mySpeed * 5;
@@ -73,5 +79,6 @@ ds_list_add(cardArray, obj_primaryCard)
 ds_list_add(cardArray, obj_secondaryCard)
 
 canBomb = false
+canBlade = false
 
 

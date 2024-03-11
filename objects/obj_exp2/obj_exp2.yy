@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_exp1","path":"objects/obj_exp1/obj_exp1.yy",},"propertyId":{"name":"expValue","path":"objects/obj_exp1/obj_exp1.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_exp1","path":"objects/obj_exp1/obj_exp1.yy",},"propertyId":{"name":"expValue","path":"objects/obj_exp1/obj_exp1.yy",},"value":"100",},
   ],
   "parent": {
     "name": "EnemySystem",
