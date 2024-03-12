@@ -77,9 +77,11 @@ ds_list_add(cardArray, obj_dashCard)
 ds_list_add(cardArray, obj_movespeedCard)
 ds_list_add(cardArray, obj_primaryCard)
 ds_list_add(cardArray, obj_secondaryCard)
+ds_list_add(cardArray, obj_bugCard)
 
 canBomb = false
 canBlade = false
-canArrow = true
+canArrow = false
+canBug = true
 
 
