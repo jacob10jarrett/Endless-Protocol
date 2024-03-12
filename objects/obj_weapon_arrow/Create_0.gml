@@ -1,7 +1,7 @@
 direction = random(360)
 speed = 6
 image_angle = direction;
-image_xscale *= 0.3;
+image_xscale *= 0.5;
 image_yscale = image_xscale;
 
 partType = part_type_create();
@@ -12,7 +12,7 @@ part_type_direction(partType, 0, 360, 0, 0);
 part_type_life(partType, 15, 20); // Life for a quick effect
 
 // Color
-part_type_color2(partType, make_color_rgb(128, 0, 0), c_orange); 
+part_type_color2(partType, make_color_rgb(0, 190, 255), c_white); 
 
 // Create the particle system and emitter
 partSystem = part_system_create();
