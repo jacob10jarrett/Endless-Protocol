@@ -1,4 +1,5 @@
 function check_for_player() {
+	if (!instance_exists(obj_player)) return;
     var max_distance = 8000; 
 
     // Calculate distance to the player

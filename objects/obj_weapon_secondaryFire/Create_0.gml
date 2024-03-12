@@ -1,9 +1,6 @@
 x = obj_weapon_secondary.x
 y = obj_weapon_secondary.y + 5
 
-
-
-
 bounced = false
 audio_play_sound(snd_bullet,1,false)
 

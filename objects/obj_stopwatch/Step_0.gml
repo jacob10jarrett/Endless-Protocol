@@ -1,3 +1,5 @@
+if (global.paused) return;
+
 // Check for the existence of obj_upgrade and exit if it exists
 if (instance_exists(obj_upgrade)) {
     exit;

@@ -1,4 +1,4 @@
-if (variable_global_exists("playerIsMoving") && global.playerIsMoving && !instance_exists(obj_upgrade))
+if (variable_global_exists("playerIsMoving") && instance_exists(obj_player) && global.playerIsMoving && !instance_exists(obj_upgrade))
 
 {
     x = obj_player.x;
