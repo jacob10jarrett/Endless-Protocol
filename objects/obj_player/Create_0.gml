@@ -34,7 +34,7 @@ alarmtime_0 = 20;
 alarmtime_1 = 360;
 alarmtime_2 = 20;
 alarmtime_3 = 300;
-alarmtime_4 = 20;
+alarmtime_4 = 200;
 alarmtime_5 = 20;
 
 alarm[0] = alarmtime_0;
@@ -80,6 +80,6 @@ ds_list_add(cardArray, obj_secondaryCard)
 
 canBomb = false
 canBlade = false
-canArrow = false
+canArrow = true
 
 

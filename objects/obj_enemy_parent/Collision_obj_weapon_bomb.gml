@@ -16,8 +16,6 @@ with (obj_enemy_parent)
 
 	if (distance <= explosion_radius) //If distance is within explosion radius, subtract enemyHp and destroy bomb
 	{
-		var damageInstance = instance_create_layer(x, y - 16, "Instances", obj_damageDisplay); // Create the damage display slightly above the enemy
-		damageInstance.damageAmount = obj_weapon_bomb.damage; // Set the damage amount
 		enemyHp -= obj_weapon_bomb.damage
 
 		if (enemyHp <= 0) //If enemyHp is <= 0, destroy enemy 
