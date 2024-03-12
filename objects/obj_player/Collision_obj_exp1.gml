@@ -1,8 +1,3 @@
-if (instance_exists(obj_upgrade))
-{
-	exit;
-}
-
 playerExp += other.expValue;
 instance_destroy(other);
 if (playerExp >= expMax)
