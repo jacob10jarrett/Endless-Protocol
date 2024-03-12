@@ -15,6 +15,7 @@ if (instance_exists(closest_enemy) && !closest_enemy.hit_by_arrow) {
     // Check for collision with the enemy
     if (place_meeting(x, y, closest_enemy)) {
         closest_enemy.hit_by_arrow = true; // Mark the enemy as hit by the arrow
+		audio_play_sound(snd_hitmarker,0,false)
     }
 }
 
