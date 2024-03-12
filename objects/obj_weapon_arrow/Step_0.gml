@@ -1,7 +1,6 @@
 if(instance_exists(obj_upgrade))
 {
 	exit;
-	speed = 0
 }
 
 var closest_enemy = instance_nearest(x, y, obj_enemy_parent);
