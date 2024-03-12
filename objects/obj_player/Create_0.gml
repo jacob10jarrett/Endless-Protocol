@@ -14,6 +14,8 @@ y = spawnPoints[index][1];
 maxHealth = 100;  
 currentHealth = 100;  
 
+dashUnlocked = false;
+
 _hsp = 0;
 _vsp = 0;
 

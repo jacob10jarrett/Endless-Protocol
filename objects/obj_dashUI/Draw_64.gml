@@ -1,5 +1,5 @@
 var player = instance_find(obj_player, 0);
-if (instance_exists(player)) {
+if (instance_exists(player) && player.dashUnlocked) { 
     if (!player.isDashing || player.dashTimer < player.dashCooldown) {
         var totalSections = 5;
         var sectionsFilled = floor((player.dashTimer / player.dashCooldown) * totalSections); // Calculate how many sections should be fully shown

@@ -106,45 +106,47 @@ else
     playerDirection = -1;
 }
 
-// Determine dash direction based on horizontal speed or player direction
-var dashDirection = sign(_hsp);
-if (dashDirection == 0) {
-    dashDirection = playerDirection;
-}
+	if (dashUnlocked && canDash) {
 
-// Increase dash timer until it reaches the dash cooldown
-if (dashTimer < dashCooldown && !isDashing && canDash) 
-{
-    dashTimer++;
-}
+	// Determine dash direction based on horizontal speed or player direction
+	var dashDirection = sign(_hsp);
+	if (dashDirection == 0) {
+	    dashDirection = playerDirection;
+	}
 
-// Dash Activation
-if (keyboard_check_pressed(vk_space) && !isDashing && dashTimer >= dashCooldown) 
-{
-    isDashing = true;
-    dashTimer = 0;
-    dashSpeed = mySpeed * 5; // Reset dash speed here if not done elsewhere
-}
+	// Increase dash timer until it reaches the dash cooldown
+	if (dashTimer < dashCooldown && !isDashing && canDash) 
+	{
+	    dashTimer++;
+	}
 
-// Handle dashing logic
-if (isDashing) {
-    var _trail = instance_create_layer(x, y, "Instances", obj_dashTrail);
-    _trail.image_xscale = image_xscale;
-    _trail.image_yscale = image_yscale;
+	// Dash Activation
+	if (keyboard_check_pressed(vk_space) && !isDashing && dashTimer >= dashCooldown) 
+	{
+	    isDashing = true;
+	    dashTimer = 0;
+	    dashSpeed = mySpeed * 5; // Reset dash speed here if not done elsewhere
+	}
 
-    var proposedX = x + (dashSpeed * dashDirection);
+	// Handle dashing logic
+	if (isDashing) {
+	    var _trail = instance_create_layer(x, y, "Instances", obj_dashTrail);
+	    _trail.image_xscale = image_xscale;
+	    _trail.image_yscale = image_yscale;
 
-    // Enhanced collision check for dashing towards obj_bounds
-    if (!place_meeting(proposedX, y, obj_bounds)) {
-        x = proposedX;
-    } else {
-        isDashing = false; // Stop dashing if a collision would occur
-    }
+	    var proposedX = x + (dashSpeed * dashDirection);
 
-    dashSpeed--;
+	    // Enhanced collision check for dashing towards obj_bounds
+	    if (!place_meeting(proposedX, y, obj_bounds)) {
+	        x = proposedX;
+	    } else {
+	        isDashing = false; // Stop dashing if a collision would occur
+	    }
 
-    if (dashSpeed <= 0) {
-        isDashing = false;
-    }
+	    dashSpeed--;
 
+	    if (dashSpeed <= 0) {
+	        isDashing = false;
+	    }
+	}
 }
