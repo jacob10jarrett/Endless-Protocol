@@ -83,7 +83,7 @@ ds_list_add(cardArray, obj_bugCard)
 
 canBomb = false
 canBlade = false
-canArrow = true
+canArrow = false
 canBug = false
 
 global.bomb_explosion_radius = 100;
