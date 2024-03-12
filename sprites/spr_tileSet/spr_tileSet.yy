@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "tileSprites",
-    "path": "folders/Sprites/tileSprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
