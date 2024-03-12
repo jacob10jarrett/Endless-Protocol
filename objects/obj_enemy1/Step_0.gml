@@ -1,6 +1,5 @@
 // Check if the upgrade object exists, stopping the animation if it does.
 if (instance_exists(obj_upgrade)) {
-    image_speed = 0;
     return;
 }
 
