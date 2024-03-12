@@ -7,6 +7,7 @@ if (instance_exists(obj_upgrade))
 }
 // Find the nearest enemy
 var nearest_enemy = instance_nearest(x, y, obj_enemy_parent);
+depth = 5
 
 // Move towards the nearest enemy
 if (nearest_enemy != noone) {
