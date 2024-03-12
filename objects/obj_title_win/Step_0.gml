@@ -25,6 +25,6 @@ if(animationStep >= string_length(fullText) && blinkState && !transitionToThanks
 if(transitionToThanksRoom){
     transitionTimer++;
     if(transitionTimer > room_speed * 7){ 
-        room_goto(rm_thanks);
+        room_goto(rm_reboot);
     }
 }

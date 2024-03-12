@@ -5,7 +5,7 @@ draw_set_color(c_white); // Set text color
 
 var displayMessage = string_replace_all(message, "#", "\n"); // Replace marker with newline
 var x_pos = 960;
-var y_pos = 650; // Adjust as needed
+var y_pos = 695; // Adjust as needed
 
 // Draw the message
 draw_text(x_pos, y_pos, displayMessage);

@@ -1,5 +1,5 @@
 message = ""; 
-fullMessage = "Thank you for playing our game!"; 
+fullMessage = "at the University of North Carolina at Charlotte for our Project One."; 
 charIndex = 0; // Current index of character to display next
 typeSpeed = room_speed * 0.01; // How fast the characters appear
 timer = 0; // Timer to control the typing speed
