@@ -84,6 +84,11 @@ if (hasStartedCountdown) {
     if (detonationTimer > 0) {
         detonationTimer--;
     } else {
+		
+global.shakeDuration = room_speed * 2; // Shake for half a second
+global.shakeIntensity = 2;
+
+
         // Time to detonate! Create dark gray smoke particle effect
 var pSystem = part_system_create();
 
@@ -120,5 +125,26 @@ part_particles_create(pSystem, x, y, pSmoke, 10);
 
         // Destroy the enemy object to simulate the "detonation"
         instance_destroy();
+    }
+}
+
+if (global.shakeDuration > 0) {
+    var originalX = camera_get_view_x(view_camera[0]);
+    var originalY = camera_get_view_y(view_camera[0]);
+
+    // Randomly offset the camera position within the intensity range
+    var shakeX = originalX + irandom_range(-global.shakeIntensity, global.shakeIntensity);
+    var shakeY = originalY + irandom_range(-global.shakeIntensity, global.shakeIntensity);
+
+    // Apply the shake
+    camera_set_view_pos(view_camera[0], shakeX, shakeY);
+
+    // Decrease the duration
+    global.shakeDuration -= 1;
+
+    // If the shake duration has ended, reset the camera to its original position
+    // This step is optional and depends on your camera follow logic
+    if (global.shakeDuration <= 0) {
+        camera_set_view_pos(view_camera[0], originalX, originalY);
     }
 }

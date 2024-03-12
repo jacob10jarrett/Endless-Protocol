@@ -19,3 +19,6 @@ if (instance_exists(closest_enemy) && !closest_enemy.hit_by_arrow) {
     }
 }
 
+var offsetX = lengthdir_x(-16, image_angle); // Offset left by 8 pixels
+var offsetY = lengthdir_y(-16, image_angle); // Use image_angle to determine "left"
+part_emitter_region(partSystem, partEmitter, x + offsetX, x + offsetX, y + offsetY, y + offsetY, ps_shape_line, ps_distr_linear);
