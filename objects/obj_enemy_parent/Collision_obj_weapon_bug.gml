@@ -1,4 +1,3 @@
-
 enemyHp -= obj_weapon_bug.damage;
 
 

@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_hackerInsect",
-    "path": "sprites/spr_hackerInsect/spr_hackerInsect.yy",
+    "name": "spr_Bug",
+    "path": "sprites/spr_Bug/spr_Bug.yy",
   },
   "spriteMaskId": null,
   "visible": true,
