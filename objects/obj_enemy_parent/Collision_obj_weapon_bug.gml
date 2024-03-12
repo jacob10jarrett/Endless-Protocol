@@ -1,4 +1,4 @@
-enemyHp -= obj_weapon_bug.damage;
+enemyHp -= global.bug_damage
 
 
 if (enemyHp <= 0) {

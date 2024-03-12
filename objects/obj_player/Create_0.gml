@@ -32,9 +32,9 @@ alarm[10] = moveDelay;
 canMove = false;
 
 //Weapon fire rate
-alarmtime_0 = 20;
+alarmtime_0 = 21;
 alarmtime_1 = 360;
-alarmtime_2 = 20;
+alarmtime_2 = 21;
 alarmtime_3 = 300;
 alarmtime_4 = 200;
 alarmtime_5 = 20;
@@ -82,8 +82,12 @@ ds_list_add(cardArray, obj_secondaryCard)
 ds_list_add(cardArray, obj_bugCard)
 
 canBomb = false
-canBlade = false
-canArrow = true
+canBlade = true
+canArrow = false
 canBug = false
 
-
+global.bomb_explosion_radius = 100;
+global.primary_damage = 10
+global.secondary_damage = 10
+global.bullet_speed = 25
+global.bug_damage = 1

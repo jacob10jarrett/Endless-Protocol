@@ -13,4 +13,5 @@ if (canBomb == true)
 		bomb.gravity = 0.1;
 		bomb.friction = 0.01;
 }
+
 	
