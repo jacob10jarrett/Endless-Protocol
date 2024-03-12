@@ -19,3 +19,12 @@ spawnTick = lerp(spawnTickInitial, spawnTickMin, progress);
 
 // Reset the alarm based on the scaled spawnTick
 alarm[0] = spawnTick;
+
+if (place_meeting(x, y, obj_bounds)){
+	instance_destroy();
+
+}
+
+if (place_meeting(x, y, obj_boundsCorner)){
+	instance_destroy();
+}
