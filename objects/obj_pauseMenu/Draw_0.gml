@@ -6,7 +6,7 @@ if (visible) {
     var camH = camera_get_view_height(cam);
 
     // Draw pause menu background (e.g., semi-transparent rectangle)
-    draw_set_alpha(0.5); // Semi-transparent
+    draw_set_alpha(.5); // Semi-transparent
     draw_rectangle_color(camX, camY, camX + camW, camY + camH, c_black, c_black, c_black, c_black, false);
     draw_set_alpha(1); // Reset transparency
 
