@@ -27,8 +27,9 @@ if (room == rm_game2) {
             // Check if the stopwatch has reached or passed zero
             if (currentTime <= 0) {
                 currentTime = 0;
+				alarm[0] = 120;
+				triggerEndGameConditions()
                 running = false;
-                // Actions when the timer ends
             }
         }
     }
@@ -37,8 +38,7 @@ if (room == rm_game2) {
     running = false;
 }
 
-// Ensure this logic only runs when the room is rm_game2
-// This check is redundant with the above, but included for clarity
+
 if (room != rm_game2) {
     running = false;
 }

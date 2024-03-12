@@ -1,0 +1,9 @@
+playerDirection = 1;
+animationStep = 0;
+animationTimer = 0;
+fullText = "Successful";
+displayText = "";
+blinkState = true;
+blinkTimer = 0;
+transitionToThanksRoom = false;
+transitionTimer = 0;

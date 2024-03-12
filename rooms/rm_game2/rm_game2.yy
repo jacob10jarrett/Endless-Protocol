@@ -592,7 +592,8 @@
     {"name":"inst_66FA73B6","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_F12EA63","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_4A5C8534","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_4A5C8534","path":"rooms/rm_game2/rm_game2.yy",},
+    {"name":"inst_7E0B19","path":"rooms/rm_game2/rm_game2.yy",},
+    {"name":"inst_23007D6D","path":"rooms/rm_game2/rm_game2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -600,6 +601,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_565DB36D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_reticle","path":"objects/obj_reticle/obj_reticle.yy",},"properties":[],"rotation":0.0,"scaleX":0.05,"scaleY":0.05,"x":3968.0,"y":2656.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F48DAA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":2688.0,"y":2496.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3EAB4D77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bounds","path":"objects/obj_bounds/obj_bounds.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":2784.0,"y":2784.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E0B19","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_death_timer","path":"objects/obj_death_timer/obj_death_timer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23007D6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_displayMessage","path":"objects/obj_displayMessage/obj_displayMessage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":1248.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UpgradeCards","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Bodies_Effects","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
