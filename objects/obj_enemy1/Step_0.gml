@@ -88,6 +88,7 @@ if (hasStartedCountdown) {
 global.shakeDuration = room_speed * 2; // Shake for half a second
 global.shakeIntensity = 2;
 
+dropXP = false;
 
         // Time to detonate! Create dark gray smoke particle effect
 var pSystem = part_system_create();

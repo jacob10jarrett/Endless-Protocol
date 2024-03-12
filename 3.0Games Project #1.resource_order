@@ -153,7 +153,6 @@
     {"name":"spr_A","order":2,"path":"sprites/spr_A/spr_A.yy",},
     {"name":"Dialogue","order":2,"path":"scripts/Dialogue/Dialogue.yy",},
     {"name":"obj_enemy1","order":1,"path":"objects/obj_enemy1/obj_enemy1.yy",},
-    {"name":"obj_damageDisplay","order":10,"path":"objects/obj_damageDisplay/obj_damageDisplay.yy",},
     {"name":"spr_background_titlescreen","order":19,"path":"sprites/spr_background_titlescreen/spr_background_titlescreen.yy",},
     {"name":"spr_dashCard","order":8,"path":"sprites/spr_dashCard/spr_dashCard.yy",},
     {"name":"spr_SecondaryFire","order":3,"path":"sprites/spr_SecondaryFire/spr_SecondaryFire.yy",},
