@@ -80,5 +80,6 @@ ds_list_add(cardArray, obj_secondaryCard)
 
 canBomb = false
 canBlade = false
+canArrow = false
 
 
