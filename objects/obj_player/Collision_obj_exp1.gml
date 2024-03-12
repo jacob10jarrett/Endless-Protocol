@@ -38,3 +38,8 @@ if (playerExp >= expMax)
 	var cardThree = instance_create_layer(obj_player.x + 400, obj_player.y, "UpgradeCards", cardThreeObject);
 }
 
+
+if (playerLevel++){
+	obj_enemy_parent.enemyHp += 10;
+	obj_enemy_parent.movementSpeed += .5;
+}
