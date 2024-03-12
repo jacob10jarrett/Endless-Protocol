@@ -1,3 +1,5 @@
+if (global.paused) return;
+
 if(instance_exists(obj_upgrade))
 {
 	exit;

@@ -1,5 +1,7 @@
 draw_self();
 
+if (global.paused) return;
+
 draw_set_color(c_red);
 
 // Calculate the angle from the reticle (mouse cursor) to the player

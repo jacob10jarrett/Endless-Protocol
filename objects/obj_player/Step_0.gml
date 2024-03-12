@@ -1,3 +1,5 @@
+if (global.paused) return;
+
 // Check for upgrade object existence
 if(instance_exists(obj_upgrade))
 {
@@ -144,4 +146,5 @@ if (isDashing) {
     if (dashSpeed <= 0) {
         isDashing = false;
     }
+
 }

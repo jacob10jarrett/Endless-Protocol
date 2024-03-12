@@ -1,1 +1,0 @@
-playerDirection = 1
