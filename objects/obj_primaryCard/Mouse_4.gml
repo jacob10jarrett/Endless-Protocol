@@ -7,6 +7,7 @@ gravity = -3
 if(obj_player.alarmtime_0 <= 5)
 {
 	global.primary_damage += 1
+	global.bullet_speed += 5
 }
 else
 {
