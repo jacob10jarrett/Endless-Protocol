@@ -82,6 +82,6 @@ ds_list_add(cardArray, obj_bugCard)
 canBomb = false
 canBlade = false
 canArrow = false
-canBug = true
+canBug = false
 
 
