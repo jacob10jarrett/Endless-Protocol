@@ -92,3 +92,4 @@ global.bug_speed = 3
 global.bugCount = 0
 global.arrowCount = 0
 global.bladeCount = 0
+global.bladeRadius = 20

@@ -125,6 +125,7 @@
     {"name":"spr_0","order":31,"path":"sprites/spr_0/spr_0.yy",},
     {"name":"obj_opening","order":11,"path":"objects/obj_opening/obj_opening.yy",},
     {"name":"spr_cracks","order":3,"path":"sprites/spr_cracks/spr_cracks.yy",},
+    {"name":"spr_enemy3","order":5,"path":"sprites/spr_enemy3/spr_enemy3.yy",},
     {"name":"obj_exp2","order":7,"path":"objects/obj_exp2/obj_exp2.yy",},
     {"name":"obj_button_nextsong","order":7,"path":"objects/obj_button_nextsong/obj_button_nextsong.yy",},
     {"name":"obj_button_skip","order":11,"path":"objects/obj_button_skip/obj_button_skip.yy",},
