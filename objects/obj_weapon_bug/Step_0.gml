@@ -1,7 +1,15 @@
+<<<<<<< HEAD
+// Step Event of the hacker bug object
+if (instance_exists(obj_upgrade))
+{
+	speed = 0
+	exit;
+=======
 if (instance_exists(obj_upgrade)) {
     speed = 0;
     damage = 0;
     exit;
+>>>>>>> 40486204e50b31ddc01c4789609d5e1b2e4c6deb
 }
 
 // Find the nearest enemy
@@ -14,7 +22,7 @@ if (nearest_enemy != noone) {
     direction = point_direction(x, y, nearest_enemy.x, nearest_enemy.y);
     
     // Move towards the enemy
-    speed = bugSpeed; // Adjust as needed
+    speed = global.bug_speed; // Adjust as needed
 }
 
 if (image_index != 0) {

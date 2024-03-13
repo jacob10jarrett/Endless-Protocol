@@ -84,10 +84,14 @@ ds_list_add(cardArray, obj_bugCard)
 canBomb = false
 canBlade = false
 canArrow = false
-canBug = false
+canBug = true
 
 global.bomb_explosion_radius = 100;
 global.primary_damage = 10
 global.secondary_damage = 10
 global.bullet_speed = 25
-global.bug_damage = 1
+global.bug_damage = 0.2
+global.bug_speed = 3
+global.bugCount = 0
+global.arrowCount = 0
+global.bladeCount = 0
