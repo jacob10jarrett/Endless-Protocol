@@ -82,9 +82,6 @@ ds_list_add(cardArray, obj_secondaryCard)
 ds_list_add(cardArray, obj_bugCard)
 
 canBomb = false
-canBlade = false
-canArrow = false
-canBug = true
 
 global.bomb_explosion_radius = 100;
 global.primary_damage = 10

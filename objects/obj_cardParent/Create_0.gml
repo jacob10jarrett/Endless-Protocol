@@ -1,3 +1,3 @@
 image_xscale = 2
 image_yscale = 2
-timesSelected = 0
+depth = 10

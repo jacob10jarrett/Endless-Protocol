@@ -2,7 +2,6 @@
 if (instance_exists(obj_upgrade))
 {
 	speed = 0
-	damage = 0
 	exit;
 }
 // Find the nearest enemy
