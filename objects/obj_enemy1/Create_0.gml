@@ -2,6 +2,7 @@ event_inherited();
 
 detonationTimer = 0; 
 hasStartedCountdown = false;
+dropXP = true;
 
 global.shakeDuration = 0; 
 global.shakeIntensity = 0;

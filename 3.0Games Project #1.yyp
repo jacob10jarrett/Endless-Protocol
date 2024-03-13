@@ -192,7 +192,6 @@
     {"id":{"name":"spr_A","path":"sprites/spr_A/spr_A.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
-    {"id":{"name":"obj_damageDisplay","path":"objects/obj_damageDisplay/obj_damageDisplay.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_background_titlescreen","path":"sprites/spr_background_titlescreen/spr_background_titlescreen.yy",},},
     {"id":{"name":"spr_dashCard","path":"sprites/spr_dashCard/spr_dashCard.yy",},},
