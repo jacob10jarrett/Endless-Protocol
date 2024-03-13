@@ -6,6 +6,6 @@ if (instance_exists(obj_upgrade))
 
 if (instance_number(obj_weapon_arrow) < global.arrowCount) {
     for (var i = 0; i < global.arrowCount; i++) {
-        instance_create_layer(x, y, "Instances", obj_weapon_arrow);
+        instance_create_layer(x, y, "Instances_2", obj_weapon_arrow);
     }
 }

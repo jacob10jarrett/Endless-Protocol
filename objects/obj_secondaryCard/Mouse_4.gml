@@ -1,4 +1,4 @@
-timesSelected++
+
 obj_cardParent.gravity = 5
 gravity = -5
 
