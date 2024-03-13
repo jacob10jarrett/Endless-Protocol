@@ -47,8 +47,8 @@ alarm[4] = alarmtime_4;
 alarm[5] = alarmtime_5
 
 //Dash
-dashSpeed = mySpeed * 5;
-dashCooldown = 360;
+dashSpeed = mySpeed * 2;
+dashCooldown = 500;
 dashTimer = 0; 
 isDashing = false;
 canDash = false
