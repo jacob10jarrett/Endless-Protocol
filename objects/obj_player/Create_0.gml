@@ -80,6 +80,7 @@ ds_list_add(cardArray, obj_movespeedCard)
 ds_list_add(cardArray, obj_primaryCard)
 ds_list_add(cardArray, obj_secondaryCard)
 ds_list_add(cardArray, obj_bugCard)
+ds_list_add(cardArray, obj_healthCard)
 
 canBomb = false
 
