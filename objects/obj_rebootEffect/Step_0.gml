@@ -22,7 +22,6 @@ if (dotTimer >= dotSpeed) {
     }
 }
 
-// Transition to title screen
 if (transitionTimer > -1) {
     transitionTimer--;
     if (transitionTimer <= 0) {

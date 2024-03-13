@@ -4,7 +4,6 @@ mission_texts[1] = "Transmitting from Sector 49, Coordinates: 35.307169,-80.7357
 
 full_text = mission_texts[0] + "\n" + mission_texts[1];
 
-// Select a random mission text
 full_text = mission_texts[irandom(array_length_1d(mission_texts) - 1)];
 
 // Typing animation settings
