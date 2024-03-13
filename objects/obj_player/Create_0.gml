@@ -85,10 +85,10 @@ ds_list_add(cardArray, obj_healthCard)
 canBomb = false
 
 global.bomb_explosion_radius = 100;
-global.primary_damage = 10
-global.secondary_damage = 10
+global.primary_damage = 20
+global.secondary_damage = 15
 global.bullet_speed = 25
-global.bug_damage = 0.2
+global.bug_damage = 0.5
 global.bug_speed = 3
 global.bugCount = 0
 global.arrowCount = 0
