@@ -70,6 +70,24 @@ if (clearPath && !tooCloseToBoundary) {
 // Adjust sprite orientation based on the player's position
 image_xscale = (obj_player.x > x) ? 1 : -1;
 
+if (x == lastX && y == lastY) {
+    // If there's no movement, start or continue the countdown
+    if (!hasStartedImmobilityCountdown) {
+        hasStartedImmobilityCountdown = true;
+        immobilityTimer = room_speed * 2; // 2 seconds countdown
+    } else if (immobilityTimer > 0) {
+        immobilityTimer--;
+    } else {
+        instance_destroy();
+    }
+} else {
+    hasMoved = true;
+    hasStartedImmobilityCountdown = false;
+    immobilityTimer = 0;
+    lastX = x;
+    lastY = y;
+}
+
 // Calculate distance to the player
 var distanceToPlayer = point_distance(x, y, obj_player.x, obj_player.y);
 

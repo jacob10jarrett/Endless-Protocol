@@ -10,3 +10,9 @@ global.shakeIntensity = 0;
 var _hsp = 0; 
 var _vsp = 0;
 
+lastX = x;
+lastY = y;
+immobilityTimer = 0;
+hasStartedImmobilityCountdown = false;
+hasMoved = false;
+
