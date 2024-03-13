@@ -3,6 +3,8 @@ obj_cardParent.gravity = 3
 gravity = -3
 
 obj_player.canDash = true
+obj_player.dashCooldown -= 50
+obj_player.dashSpeed += 10
 
 var playerInstance = instance_find(obj_player, 0);
 if (instance_exists(playerInstance)) {
