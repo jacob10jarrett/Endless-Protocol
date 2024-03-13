@@ -2,7 +2,6 @@
 if (instance_exists(obj_upgrade))
 {
 	speed = 0
-	damage = 0
 	exit;
 }
 // Find the nearest enemy
@@ -15,6 +14,6 @@ if (nearest_enemy != noone) {
     direction = point_direction(x, y, nearest_enemy.x, nearest_enemy.y);
     
     // Move towards the enemy
-    speed = bugSpeed; // Adjust as needed
+    speed = global.bug_speed; // Adjust as needed
 }
 
