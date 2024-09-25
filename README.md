@@ -1,7 +1,6 @@
 Group Name: 	3.0 Games
 Members:	Jacob Jarrett, Ram Hirneisen, Andrew Wells, Vincent Medina
 Game Name:	Endless Protocol
-Trailer: https://drive.google.com/file/d/1X6hhbs5AsjZlu1xKv-wv1VWCCS2ETO0T/view?t=4
 
 
 How To Play
